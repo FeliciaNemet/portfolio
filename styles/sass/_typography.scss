@@ -1,0 +1,36 @@
+$blueGreen: #5bf0b2;
+
+
+
+html {
+     font-size: 125%;
+}
+
+a {
+     text-decoration: none;
+}
+
+ol, ul {
+     margin-top: 0;
+     margin-bottom: 10px;
+     list-style: none;
+}
+
+.header {
+     color: #333;
+}
+
+.logo {
+     margin-left: 20px;
+     font-size: 1.3rem;
+     text-transform: uppercase;
+     letter-spacing: 1.5px;
+     z-index: 90;
+     position: relative;
+     display: inline-block;
+     a {
+          background-color: transparent;
+          cursor: pointer;
+     }
+}
+
