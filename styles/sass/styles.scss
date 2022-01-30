@@ -11,7 +11,34 @@ body {
      margin: 0 auto;
 }
 
-.buttonTopToggle, .buttonBottom {
+.box {
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+.box::before {
+     display: table;
+     content: " ";
+}
+
+.row {
+     margin-right: -15px;
+     margin-left: -15px;
+}
+
+.mfpHide {
+     display: none !important;
+}
+
+.contactForm {
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+}
+
+.buttonTopToggle {
      width: 0;
      height: 0;
      border-style: solid;
@@ -31,14 +58,24 @@ body {
 
 }
 
-.buttonTopToggle::before, .buttonBottom::before {
+.buttonTopToggle::before {
      content: "";
-     font-style: normal;
+     font-style: normal normal normal 14px/1 FontAwesome;
      position: absolute;
      top: -25px;
      left: -5.5px;
      font-size: 1.05rem;
      color: #201e15;
+}
+
+.buttonBottom::before {
+     content: "";
+     font-style: normal normal normal 14px/1 FontAwesome;
+     position: absolute;
+     top: 5px;
+     left: -5.5px;
+     font-size: 1.05rem;
+     color: #201e15 
 }
 
 .nav {
@@ -69,19 +106,133 @@ body {
      }
 }
 
+.topSlider {
+     margin-top: -43px;
+     .swiperBox {
+          padding-bottom: 40px;
+          width: 100%;
+     }
+}
 
+.topSlider .svgWrap {
+     height: 100vh;
+}
+
+.topSlider .imgWrap img {
+     max-height: 450px;
+}
+
+.swiperBox {
+     margin: 0 auto;
+     position: relative;
+     overflow: hidden;
+     direction: ltr;
+     backface-visibility: hidden;
+     height: inherit;
+}
+
+.swiperWrapper {
+     width: 625px;
+     transform: translate3d(-500px, 0px, 0px);
+     transition-duration: 1s;
+     height: 708px;
+     position: relative;
+     transition-property: transform, left, top;
+     transition-timing-function: ease;
+     box-sizing: content-box;
+     cursor: ew-resize;
+     margin: 0 auto;
+     float: left;
+}
+
+
+
+.swiperSlide {
+     background-image: url(./assets/92827504_156723792366254_1471150710820963535_n\ copy.jpg);
+     background-position: center;
+
+
+}
+
+.svgWrap {
+     background-image: url(../../assets/IMG_3995.png);
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100;
+     z-index: 10;
+     background-position: center;
+     background-size: cover;
+}
+
+.sBackSwitch {
+     background-repeat: no-repeat;
+}
+
+.sImgSwitch {
+     visibility: hidden;
+}
+
+img {
+     vertical-align: middle;
+}
+
+.topSlider .wrapInfo {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-23%);
+     width: 100%;
+     text-align: center;
+     z-index: 10;
+}
+
+.topSlider .titleSlide {
+     font-size: 40px;
+}
 .contactInfo {
      text-align: center;
      position: relative;
-     z-index: 20;
-     margin-top: 100px;
-     display: block;
+     z-index: 10;
+     
 }
 
 
 .boxWrapper {
      position: relative;
      z-index: 10;
+}
+
+.footer {
+     position: relative;
+     margin-bottom: -10px;
+}
+
+.footer .copyright {
+     position: absolute;
+     z-index: 10;
+     width: 100%;
+     text-align: center;
+}
+
+.buttonBottom {
+     top: auto;
+     bottom: 0;
+     border-width: 0 26px 26px 26px;
+     border-color: transparent transparent $blueGreen transparent;
+     width: 0;
+     height: 0;
+     border-style: solid;
+     position: absolute;
+     left: 50%;
+     transform: translateY(-50%);
+     z-index: 10;
+     cursor: pointer;
+     transition-property: all;
+     transition-duration: 0.5s;
+     transition-timing-function: ease;
+     transition-delay: 0s;
+     color: #201e15;
+
 }
 
 // ***************************

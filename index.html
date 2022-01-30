@@ -10,68 +10,116 @@
 <body>
      <header>
           <div class="wrapper header">
+               <!-- pop up form -->
+               <div class="box">
+                    <div class="row">
+                         <div class="colSm6 colSmOffset6">
+                              <!-- form itself -->
+                              <form id="contactForm" class="mfpHide whitePopupBlock contactForm" action="#">
+                                   <div class="groupForm">
+                                        <input id="name" class="field" type="text" required="">
+                                        <label class="formLabel" for="name">Name</label>
+                                   </div>
+                                   <div class="groupForm">
+                                        <input id="email" class="field" type="email" name="email" required="">
+                                        <label class="formLabel" for="email">Email</label>
+                                   </div>
+                                   <div class="groupForm">
+                                        <textarea id="message" class="field message" name="message" required=""></textarea>
+                                        <label class="formLabel" for="message">Message</label>
+                                   </div>
+                                   <button class="link" type="submit">Get In Touch</button>
+                              </form>
+                         </div>
+                    </div>
+               </div>
                <div class="topHeader textCenter">
                     <div class="box">
                          <div class="row">
-                              <div class="innerRow">
-                                   <!-- Contact Form -->
-                                   <form id="contactForm" class="contactForm" action="#">
-                                        <div class="groupForm">
-                                             <input id="name" class="field" type="text" required="">
-                                             <label class="formLabel" for="name">Name</label>
+                              <div class="colSm12 noPadding">
+                                   <div class="row">
+                                        <div class="colLg4 textCenter textRightLg">
+                                             <span class="flatIconClosedEnvelope">
+                                             </span>
+                                             <a class="info" href="mailto:nemet.felicia@gmail.com">nemet.felicia@gmail.com</a>
                                         </div>
-                                        <div class="groupForm">
-                                             <input id="email" class="field" type="email" name="email" required="">
-                                             <label class="formLabel" for="email">Email</label>
+                                        <div class="colLg4 textCenter">
+                                             <span></span>
+                                             <a class="info" href="https://github.com/FeliciaNemet">github.com/Felicianemet</a>
                                         </div>
-                                        <div class="groupForm">
-                                             <textarea id="message" class="field message" name="message" required=""></textarea>
-                                             <label class="formLabel" for="message">Message</label>
+                                        <div class="colLg4 textCenter textLeftLg">
+                                             <span></span>
+                                             <a href="https://www.linkedin.com/in/felicia-nemet-485b63130/">linkedin.com/in/felicia-nemet</a>
                                         </div>
-                                        <button class="Link" type="submit">Get In Touch</button>
-                                   </form>
+                                   </div>
+                              </div>
+                              <div class="buttonTopClose rhombus">
+                                   <span class="flatIconCancel"></span>
                               </div>
                          </div>
                     </div>
                </div>
                <div class="buttonTopToggle">
                </div>
-               <nav class="nav">
-                    <div class="logo">
-                         <a href="index.html">Felicia Nemet</a>
-                    </div>
-                    <div class="mainMenu">
-                         <ul>
-                              <li class="menuItem">
-                                   <a href="#">About</a>
-                              </li>
-                              <li class="menuItem">
-                                   <a href="#">Projects</a>
-                              </li>
-                              <li class="menuItem">
-                                   <a href="#">Contact</a>
-                              </li>
-                         </ul>
-                         <div class="socialWrap">
-                              <div class="socialIcons bottomIcon">
-                                   <a class="rhombus" href="https://github.com/FeliciaNemet" target="blank">
-                                        <i class="fa-brands fa-github"></i>
-                                   </a>
-                                   <a class="rhombus" href="https://www.linkedin.com/in/felicia-nemet-485b63130/" target="blank">
-                                        <i class="fa-brands fa-linkedin-in"></i>
-                                   </a>
-                                   <a class="rhombus" href="" target="blank">
-                                        <i class=""></i>
-                                   </a>
+               <div navHeader>
+                    <nav class="nav">
+                         <div class="logo">
+                              <a href="index.html">Felicia Nemet</a>
+                         </div>
+                         <div class="mainMenu">
+                              <ul>
+                                   <li class="menuItem">
+                                        <a href="#">About</a>
+                                   </li>
+                                   <li class="menuItem">
+                                        <a href="#">Projects</a>
+                                   </li>
+                                   <li class="menuItem">
+                                        <a href="#">Contact</a>
+                                   </li>
+                              </ul>
+                              <div class="socialWrap">
+                                   <div class="socialIcons bottomIcon">
+                                        <a class="rhombus" href="https://github.com/FeliciaNemet" target="blank">
+                                             <i class="fa-brands fa-github"></i>
+                                        </a>
+                                        <a class="rhombus" href="https://www.linkedin.com/in/felicia-nemet-485b63130/" target="blank">
+                                             <i class="fa-brands fa-linkedin-in"></i>
+                                        </a>
+                                        <a class="rhombus" href="" target="blank">
+                                             <i class=""></i>
+                                        </a>
+                                   </div>
                               </div>
                          </div>
+                         <button class="menuToggle">
+                              <span class="icon"></span>
+                              <span class="icon"></span>
+                              <span class="icon"></span>
+                         </button>
+                    </nav>
+               </div>
+               <div class="topSlider">
+                    <div class="swiperBox">
+                         <div class="swiperWrapper">
+                              <div class="swiperSlide sBackSwitch swiperSlideDuplicate active">
+                              <div class="swiperSlide"></div>
+                                   <!-- swiper slide -->
+                                   <div class="imgWrap">
+                                        <img class="sImgSwitch" src="./assets/92827504_156723792366254_1471150710820963535_n copy.jpg" alt="A picture of Felicia Nemet" data-s-hidden="1">
+                                   </div>
+                                   <div class="svgWrap sBackSwitch">
+                                        <img class="sImgSwitch" src="assets/IMG_3995.png" alt="A picture of Felicia Nemet rockclimbing">
+                                   </div>
+                                   <div class="wrapInfo">
+                                        <div class="titleSlide marginLg"></div>
+                                   </div>
+                              </div>
+                         </div>
+
                     </div>
-                    <button class="menuToggle">
-                         <span class="icon"></span>
-                         <span class="icon"></span>
-                         <span class="icon"></span>
-                    </button>
-               </nav>
+
+               </div>
           </div>
      </header>
      <main>
@@ -136,11 +184,16 @@
                     </div>
 
                </section>
+               <section class="skills">
+                    <div class="skills">
+                         <div class="swiperBox skillsSlider swiperSwiperUniqueId1 initialized" id="swiperUniqueId1" data-autoplay="10000" data-loop="1" data-speed="2000" data-slides-per-view="responsive" data-add-slides="1"></div>
+                    </div>
+               </section>
 
           </div>
      </main>
      <footer>
-          <div class="wrapper footer">
+          <div class="wrapper footer footerGrayscale sBackSwitch">
                <section class="contactInfo">
                     <p></p>
                     <p></p>
@@ -148,7 +201,7 @@
                </section>
                <div class="copyright">
                     <p>Created @ Juno College of Technology © 2022</p>
-                    <p>Developed By Felicia Nemet</p>
+                    <p>Developed By <a href="index.html">Felicia Nemet</a></p>
                </div>
                <div class="buttonBottom"></div>
           </div>

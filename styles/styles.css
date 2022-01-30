@@ -346,6 +346,10 @@ body {
           transform: translate(-50%);
 }
 
+.swiperSlide {
+  background-image: url(../../assets/);
+}
+
 .contactInfo {
   text-align: center;
   position: relative;
