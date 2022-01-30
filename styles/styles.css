@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -304,10 +303,11 @@ body {
           transition-timing-function: ease;
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
+  color: #201e15;
 }
 
 .buttonTopToggle::before, .buttonBottom::before {
-  content: "";
+  content: "";
   font-style: normal;
   position: absolute;
   top: -25px;
@@ -352,4 +352,9 @@ body {
   z-index: 20;
   margin-top: 100px;
   display: block;
+}
+
+.boxWrapper {
+  position: relative;
+  z-index: 10;
 }

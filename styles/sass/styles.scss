@@ -27,11 +27,12 @@ body {
      transition-duration: 0.5s;
      transition-timing-function: ease;
      transition-delay: 0s;
+     color: #201e15;
 
 }
 
 .buttonTopToggle::before, .buttonBottom::before {
-     content: "\f107";
+     content: "";
      font-style: normal;
      position: absolute;
      top: -25px;
@@ -75,6 +76,12 @@ body {
      z-index: 20;
      margin-top: 100px;
      display: block;
+}
+
+
+.boxWrapper {
+     position: relative;
+     z-index: 10;
 }
 
 // ***************************
