@@ -145,12 +145,15 @@ body {
      float: left;
 }
 
-
+.topSlider .swiperSlide {
+     background-position: center;
+}
 
 .swiperSlide {
      background-image: url(./assets/92827504_156723792366254_1471150710820963535_n\ copy.jpg);
      background-position: center;
-
+     float: left;
+     position: relative;
 
 }
 
@@ -167,10 +170,16 @@ body {
 
 .sBackSwitch {
      background-repeat: no-repeat;
+     background-size: cover;
 }
 
-.sImgSwitch {
+.imgWrap .sImgSwitch {
      visibility: hidden;
+}
+
+.svgWrap .sImgSwitch {
+     visibility: hidden;
+     display: none !important;
 }
 
 img {
@@ -189,6 +198,31 @@ img {
 .topSlider .titleSlide {
      font-size: 40px;
 }
+
+.projects {
+     position: relative;
+     background-image: url(../../assets/diamond.jpg);
+}
+
+.projects .sBackSwitch {
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.projects .sBackSwitch .sImgSwitch {
+     display: none !important;
+}
+
+
+.skills .swiperBox .swiperWrapper {
+     width: 1455px;
+     transform: translate3d(-873px 0px 0px);
+     transition-duration: 5s;
+     height: 476px;
+}
+
+
+
 .contactInfo {
      text-align: center;
      position: relative;
