@@ -467,7 +467,7 @@ p {
 
 // slideshow
 
-#slideshow {
+.slideshow {
      overflow: hidden;
      height: 100vh;
      width: 100vw;
@@ -475,7 +475,7 @@ p {
 }
 
 .slide-wrapper {
-     width: 2912px;
+     width: 100vw;
      -webkit-animation: slide 18s ease infinite;
 }
 
@@ -492,7 +492,7 @@ p {
      background-position: center;
 }
 
-.slide:nth-child(2) {
+.slideHeader:nth-child(2) {
      background: #037E8C;
 }
 
@@ -507,7 +507,7 @@ p {
      20% {margin-left: 0px;}
      30% {margin-left: -100vw;}
      50% {margin-left: -100vw;}
-     60% {margin-left: 0px}
+     60% {margin-left: 0px;}
      // 70% {margin-left: -1456px;}
      // 80% {margin-left: -2184px;}
      // 90% {margin-left: -2184px;}
