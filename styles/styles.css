@@ -772,7 +772,7 @@ p {
   color: #201e15;
 }
 
-#slideshow {
+.slideshow {
   overflow: hidden;
   height: 100vh;
   width: 100vw;
@@ -780,7 +780,7 @@ p {
 }
 
 .slide-wrapper {
-  width: 2912px;
+  width: 100vw;
   -webkit-animation: slide 18s ease infinite;
 }
 
@@ -797,7 +797,7 @@ p {
   background-position: center;
 }
 
-.slide:nth-child(2) {
+.slideHeader:nth-child(2) {
   background: #037E8C;
 }
 
