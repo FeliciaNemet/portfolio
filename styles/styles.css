@@ -345,7 +345,7 @@ a {
   font-size: 28px;
   top: 10px;
   left: 10px;
-  color: black;
+  color: white;
 }
 
 .logo {
@@ -357,7 +357,7 @@ a {
   z-index: 100;
   top: 90px;
   left: 20px;
-  position: relative;
+  position: absolute;
   display: inline-block;
   text-shadow: 2px 2px 1px #e7feff;
 }
@@ -691,6 +691,7 @@ a {
   width: 310vw;
   -webkit-animation: slide 18s ease infinite;
           animation: slide 18s ease infinite;
+  height: 100vh;
 }
 
 .slide {
@@ -765,6 +766,7 @@ a {
   width: 400vw;
   -webkit-animation: cohortSlide 22s ease infinite;
           animation: cohortSlide 22s ease infinite;
+  height: 100vh;
 }
 
 .cohortSlide {
