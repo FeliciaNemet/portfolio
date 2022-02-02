@@ -1,4 +1,7 @@
 $blueGreen: #5bf0b2;
+$headerFont: 'Exo 2', sans-serif;
+$logoFont: 'Play', sans-serif;
+$baseFont: 'El Messiri', sans-serif;
 
 
 
@@ -32,6 +35,30 @@ ol, ul {
           background-color: transparent;
           cursor: pointer;
      }
+}
+
+.logo a {
+     font-family: $baseFont;
+     color: black;
+}
+
+h1 {
+     font-family: $logoFont;
+}
+
+.slideContent h1 {
+     font-size: 4rem;
+     padding-top: 150px;
+     text-transform: uppercase;
+     
+}
+
+h2 {
+     text-transform: uppercase;
+}
+
+h4 {
+     text-transform: uppercase;
 }
 
 // use this for slideshow: https://codepen.io/daysahead/pen/mJqBge

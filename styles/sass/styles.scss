@@ -4,6 +4,7 @@
 body {
      color: #333;
      background-color: gray;
+     overflow-x: hidden;
 }
 
 .wrapper {
@@ -86,6 +87,17 @@ a {
 
 .rhombus {
      transform: rotateZ(46deg);
+     height: 50px;
+     width: 50px;
+     position: relative;
+}
+
+.rhombus i {
+     position: absolute;
+     transform: rotateZ(-46deg);
+     font-size: 28px;
+     top: 10px;
+     left: 10px;
 }
 
 .topHeader span.cancel::before {
@@ -163,9 +175,7 @@ a {
      display: inline-block;
 }
 
-.logo a {
-     color: #fff;
-}
+
 .mainMenu {
      padding: 0;
      margin: 0;
@@ -255,9 +265,9 @@ a {
      height: 100vh;
 }
 
-.topSlider .imgWrap {
-     height: 100vh;
-}
+// .topSlider .imgWrap {
+//      height: 100vh;
+// }
 
 
 .swiperBox {
@@ -269,25 +279,6 @@ a {
      height: inherit;
 }
 
-.swiperWrapper {
-     width: 625px;
-     transform: translate3d(-500px, 0px, 0px);
-     transition-duration: 1s;
-     height: 708px;
-     position: relative;
-     transition-property: transform, left, top;
-     transition-timing-function: ease;
-     box-sizing: content-box;
-     cursor: ew-resize;
-     margin: 0 auto;
-     float: left;
-}
-
-.swiperSlide .sBackSwitch .swiperSlideDuplicate .active {
-     background-image: url('../assets/92827504_156723792366254_1471150710820963535_n\ copy.jpg');
-     width: 1200px;
-     height: 815px;
-}
 
 .topSlider .swiperSlide {
      background-position: center;
@@ -310,23 +301,12 @@ a {
      background-size: cover;
 }
 
-.sBackSwitch {
-     background-repeat: no-repeat;
-     background-size: cover;
-}
 
-.imgWrap .sImgSwitch {
-     visibility: hidden;
-}
+// .svgWrap .sImgSwitch {
+//      visibility: hidden;
+//      display: none !important;
+// }
 
-.svgWrap .sImgSwitch {
-     visibility: hidden;
-     display: none !important;
-}
-
-img {
-     vertical-align: middle;
-}
 
 .topSlider .wrapInfo {
      position: absolute;
@@ -340,7 +320,7 @@ img {
 .topSlider .titleSlide {
      font-size: 67px;
      font-weight: 200;
-     color: #fff;
+     color: black;
 }
 
 .topSlider .titleSlide a {
@@ -354,7 +334,7 @@ img {
 
 .link {
      font-weight: 700;
-     color: #fff;
+     color: black;
      position: relative;
      text-transform: uppercase;
      display: inline-block;
@@ -391,8 +371,77 @@ img {
      background-repeat: no-repeat;
 }
 
-.projects .sBackSwitch .sImgSwitch {
-     display: none !important;
+.skills {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: right;
+     align-items: flex-end;
+     padding: 150px;
+     padding-right: 0;
+     padding-left: 0;
+}
+
+// .iPad1, .iPad2, .iPad3, .iPad4, .iPad5, .iPad6 {
+//      width: 30%;
+//      display: flex;
+//      margin: 20px;
+// }
+
+.iPod {
+     width: 200%;
+     margin-left: 10px;
+}
+
+
+
+.iPod h3 {
+    font-family: $baseFont;
+    font-weight: 400;
+    font-size: 0.9rem;
+} 
+
+.iPod p {
+    font-family: $secondFont;
+    font-size: 0.7rem;
+    opacity: 0.5;
+
+}
+
+.skills i {
+    position: relative;
+    padding: 10px;
+    font-size: 30px;
+
+}
+
+.skills i::after {
+    content: "";
+    position: absolute;
+    border: 2px solid #333333;
+    top: -5px;
+    left: -5px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.wand, .pin, .desktop, .shoppingBag, .sliders, .smileyFace {
+    display: flex;
+    width: 50%;
+    }
+
+.skills .pin i::after {
+    content: "";
+    position: absolute;
+    border: 2px solid #333333;
+    top: -5px;
+    left: -10px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    text-align: center;
 }
 
 
@@ -403,6 +452,11 @@ img {
      height: 476px;
 }
 
+
+img {
+     width: 400px;
+     height: 400px;
+}
 
 
 .contactInfo {
@@ -418,9 +472,10 @@ img {
      z-index: 10;
 }
 
-.footer {
-     position: relative;
+.footer section{
      margin-bottom: -10px;
+     display: flex;
+     flex-direction: column;
 }
 
 .footer .footerGrayscale {
@@ -452,7 +507,6 @@ p {
      width: 0;
      height: 0;
      border-style: solid;
-     position: absolute;
      left: 50%;
      transform: translateY(-50%);
      z-index: 10;
@@ -465,18 +519,26 @@ p {
 
 }
 
-// slideshow
+
+
+// .slideContent {
+//      display: flex;
+//      flex-direction: column;
+//      justify-content: center;
+//      align-items: center;
+// }
+
 
 .slideshow {
      overflow: hidden;
      height: 100vh;
      width: 100vw;
-     margin: 0 0;
+     margin: 0 auto;
 }
 
 .slide-wrapper {
-     width: 100vw;
-     -webkit-animation: slide 18s ease infinite;
+     width: 320vw;
+     animation: slide 18s ease infinite;
 }
 
 .slide {
@@ -486,37 +548,78 @@ p {
 }
 
 .slide:nth-child(1) {
-     background-image: url('../assets/92827504_156723792366254_1471150710820963535_n\ copy.jpg');
+     background-image: url('../assets/jacob-padilla-O3LVKottLPc-unsplash.jpg');
      background-repeat: no-repeat;
-     background-size: contain;
+     background-size: cover;
      background-position: center;
 }
 
-.slideHeader:nth-child(2) {
-     background: #037E8C;
+.slide:nth-child(2) {
+     background-image: url('../assets/markus-spiske-cvBBO4PzWPg-unsplash.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+
+.slide:nth-child(3) {
+     background-image: url('../assets/jacob-padilla-O3LVKottLPc-unsplash.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
 }
 
 
-.slide-number {
-     color: #000;
-     text-align: center;
-     font-size: 10em;
+@keyframes slide {
+     20% {margin-left: -20vw;}
+     30% {margin-left: -120vw}
+     50% {margin-left: -120vw;}
+     60% {margin-left: -220vw;}
+     70% {margin-left: -220vw;}
 }
 
-@-webkit-keyframes slide {
+
+
+
+.cohortSlideWrapper {
+     width: 400vw;
+     animation: cohortSlide 18s ease infinite;
+}
+
+
+.cohortSlide {
+     float: left;
+     height: 100vh;
+     width: 100vw;
+}
+
+.cohortSlide:nth-child(1) {
+     background-color: blue;
+}
+
+.cohortSlide:nth-child(2) {
+     background-color: blueviolet;
+}
+
+.cohortSlide:nth-child(3) {
+     background-color: cadetblue;
+}
+
+.cohortSlide:nth-child(4) {
+     background-color: cadetblue;
+}
+
+
+@keyframes cohortSlide {
      20% {margin-left: 0px;}
-     30% {margin-left: -100vw;}
+     30% {margin-left: -100vw}
      50% {margin-left: -100vw;}
-     60% {margin-left: 0px;}
-     // 70% {margin-left: -1456px;}
-     // 80% {margin-left: -2184px;}
-     // 90% {margin-left: -2184px;}
+     60% {margin-left: -200vw;}
+     70% {margin-left: -200vw;}
+     80% {margin-left: -300vw;}
+     90% {margin-left: -300vw;}
 }
 
-// ***************************
-// .box {
-//      display: flex;
-// }
+
 
 // .diamond {
 //      background-color: gold;
