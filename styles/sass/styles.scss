@@ -328,15 +328,32 @@ a {
 }
 
 .projects {
-     position: relative;
-     background-image: url(../../assets/diamond.jpg);
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
 }
 
-.projects .sBackSwitch {
-     background-size: cover;
-     background-repeat: no-repeat;
+.project h2 {
+     font-size: 3rem;
+     text-shadow: 2px 2px 1px $blueGreen;
+     font-family: $baseFont;
+     text-align: left;
+     text-transform: uppercase;
 }
 
+.wrap {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border: 2px solid black;
+     width: 20%;
+     margin: 30px;
+     text-align: center;
+          h4 {
+               font-size: 1.6rem;
+               text-align: center;
+          }
+}
 
 
 .skills h3 {

@@ -641,13 +641,44 @@ a {
 }
 
 .projects {
-  position: relative;
-  background-image: url(../../assets/diamond.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.projects .sBackSwitch {
-  background-size: cover;
-  background-repeat: no-repeat;
+.project h2 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 1px #5bf0b2;
+  font-family: "El Messiri", sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid black;
+  width: 20%;
+  margin: 30px;
+  text-align: center;
+}
+.wrap h4 {
+  font-size: 1.6rem;
+  text-align: center;
 }
 
 .skills h3 {
