@@ -23,10 +23,7 @@ body {
      text-align: center;
 }
 
-// .row {
-//      margin-right: -15px;
-//      margin-left: -15px;
-// }
+
 .noPadding {
      padding-left: 0;
      padding-right: 0;
@@ -44,9 +41,6 @@ body {
      padding-right: 15px;
 }
 
-i {
-     font-size: 1rem;
-}
 
 a, a:link, a:active, a:hover, a:focus {
      cursor: pointer;
@@ -94,14 +88,9 @@ a {
      color: #24231c;
 }
 
-.mfpHide {
-     display: none !important;
-}
 
-.contactForm {
-     margin: 0 auto;
-     text-align: center;
-}
+
+
 
 .buttonTopToggle {
      width: 0;
@@ -326,6 +315,9 @@ a {
      h2 {
           text-transform: uppercase;
           font-family: $baseFont;
+          font-size: 3rem;
+          text-shadow: 2px 2px 1px $blueGreen;
+          text-align: left;
      }
 }
 
@@ -345,58 +337,55 @@ a {
      background-repeat: no-repeat;
 }
 
-.skills {
+
+
+.skills h3 {
+     text-align: left;
+     font-size: 3rem;
+     text-shadow: 2px 2px 1px $blueGreen;
+}
+
+.techStack {
      display: flex;
-     flex-wrap: wrap;
      flex-direction: row;
-     justify-content: right;
-     align-items: flex-end;
-     padding: 150px;
-     padding-right: 0;
-     padding-left: 0;
+     flex-wrap: wrap;
 }
 
-// .iPad1, .iPad2, .iPad3, .iPad4, .iPad5, .iPad6 {
-//      width: 30%;
-//      display: flex;
-//      margin: 20px;
-// }
-
-.iPod {
-     width: 200%;
-     margin-left: 10px;
+.rhombusBox {
+     display: flex;
+     flex-direction: column;
+     margin: 100px;
+     text-align: center;
 }
 
-
-
-.iPod h3 {
-    font-family: $baseFont;
-    font-weight: 400;
-    font-size: 0.9rem;
-} 
-
-.iPod p {
-    font-family: $baseFont;
-    font-size: 0.7rem;
-    opacity: 0.5;
-
+.rhombusBox h4 {
+     margin-top: 40px;
 }
 
-.skills i {
-    position: relative;
-    padding: 10px;
-    font-size: 30px;
+.rhom {
+     padding: 40px;
+     transform: rotateZ(46deg);
+     height: 50px;
+     width: 50px;
+     position: relative;
+     border: 2px solid $blueGreen;
+     height: 50px;
+     width: 50px;
+     
+}
 
+.rhom i {
+     transform: rotateZ(-46deg);
+     margin-left: 15px;
+     margin-right: 15px;
+     display: inline-block;
+     position: absolute;
+     font-size: 40px;
+     top: 20px;
+     left: 5px;
 }
 
 
-
-.skills .swiperBox .swiperWrapper {
-     width: 1455px;
-     transform: translate3d(-873px 0px 0px);
-     transition-duration: 5s;
-     height: 476px;
-}
 
 
 img {
@@ -412,6 +401,62 @@ img {
      position: relative;
      z-index: 10;
      
+}
+
+.contactForm {
+     margin: 0 auto;
+     text-align: center;
+     width: 60%;
+
+     button {
+          margin: 20px;
+          background-color: $blueGreen;
+          color: #333;
+          font-family: $baseFont;
+          box-shadow: 2px 2px 1px #333;
+     }
+}
+
+.form {
+     text-align: center;
+     margin: 50px;
+}
+
+.form h3 {
+     text-align: left;
+     font-size: 3rem;
+     text-shadow: 2px 2px 1px $blueGreen;
+}
+
+.groupForm {
+     display: flex;
+     flex-direction: column;
+     label {
+          text-transform: uppercase;
+          font-family: $baseFont;
+          color: $blueGreen;
+          letter-spacing: 1.5px;
+          padding: 10px;
+          text-align: left;
+          text-shadow: 2px 2px 1px #333;
+     }
+     input {
+          border: 2px solid $blueGreen;
+          background-color: transparent;
+          color: $blueGreen;
+          text-align: center;
+          box-shadow: 2px 2px 1px #333;
+     }
+
+     .message {
+          border: 2px solid $blueGreen;
+          background-color: transparent;
+          color: $blueGreen;
+          box-shadow: 2px 2px 1px #333;
+          resize: none;
+          margin-bottom: 40px;
+     }
+
 }
 
 
@@ -527,21 +572,6 @@ img {
      width: 100vw;
 }
 
-.cohortSlide:nth-child(1) {
-     background-color: blue;
-}
-
-.cohortSlide:nth-child(2) {
-     background-color: blueviolet;
-}
-
-.cohortSlide:nth-child(3) {
-     background-color: cadetblue;
-}
-
-.cohortSlide:nth-child(4) {
-     background-color: cadetblue;
-}
 
 
 @keyframes cohortSlide {

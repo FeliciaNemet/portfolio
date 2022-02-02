@@ -337,10 +337,6 @@ body {
   padding-right: 15px;
 }
 
-i {
-  font-size: 1rem;
-}
-
 a, a:link, a:active, a:hover, a:focus {
   cursor: pointer;
   text-decoration: none;
@@ -391,15 +387,6 @@ a {
   margin-left: 0;
   display: inline-block;
   color: #24231c;
-}
-
-.mfpHide {
-  display: none !important;
-}
-
-.contactForm {
-  margin: 0 auto;
-  text-align: center;
 }
 
 .buttonTopToggle {
@@ -642,6 +629,9 @@ a {
 .about h2 {
   text-transform: uppercase;
   font-family: "El Messiri", sans-serif;
+  font-size: 3rem;
+  text-shadow: 2px 2px 1px #5bf0b2;
+  text-align: left;
 }
 
 .me {
@@ -660,57 +650,62 @@ a {
   background-repeat: no-repeat;
 }
 
-.skills {
+.skills h3 {
+  text-align: left;
+  font-size: 3rem;
+  text-shadow: 2px 2px 1px #5bf0b2;
+}
+
+.techStack {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  padding: 150px;
-  padding-right: 0;
-  padding-left: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.iPod {
-  width: 200%;
-  margin-left: 10px;
+.rhombusBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 100px;
+  text-align: center;
 }
 
-.iPod h3 {
-  font-family: "El Messiri", sans-serif;
-  font-weight: 400;
-  font-size: 0.9rem;
+.rhombusBox h4 {
+  margin-top: 40px;
 }
 
-.iPod p {
-  font-family: "El Messiri", sans-serif;
-  font-size: 0.7rem;
-  opacity: 0.5;
-}
-
-.skills i {
+.rhom {
+  padding: 40px;
+  -webkit-transform: rotateZ(46deg);
+          transform: rotateZ(46deg);
+  height: 50px;
+  width: 50px;
   position: relative;
-  padding: 10px;
-  font-size: 30px;
+  border: 2px solid #5bf0b2;
+  height: 50px;
+  width: 50px;
 }
 
-.skills .swiperBox .swiperWrapper {
-  width: 1455px;
-  -webkit-transform: translate3d(-873px 0px 0px);
-          transform: translate3d(-873px 0px 0px);
-  -webkit-transition-duration: 5s;
-          transition-duration: 5s;
-  height: 476px;
+.rhom i {
+  -webkit-transform: rotateZ(-46deg);
+          transform: rotateZ(-46deg);
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  position: absolute;
+  font-size: 40px;
+  top: 20px;
+  left: 5px;
 }
 
 img {
@@ -724,6 +719,67 @@ img {
   text-align: center;
   position: relative;
   z-index: 10;
+}
+
+.contactForm {
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+.contactForm button {
+  margin: 20px;
+  background-color: #5bf0b2;
+  color: #333;
+  font-family: "El Messiri", sans-serif;
+  -webkit-box-shadow: 2px 2px 1px #333;
+          box-shadow: 2px 2px 1px #333;
+}
+
+.form {
+  text-align: center;
+  margin: 50px;
+}
+
+.form h3 {
+  text-align: left;
+  font-size: 3rem;
+  text-shadow: 2px 2px 1px #5bf0b2;
+}
+
+.groupForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.groupForm label {
+  text-transform: uppercase;
+  font-family: "El Messiri", sans-serif;
+  color: #5bf0b2;
+  letter-spacing: 1.5px;
+  padding: 10px;
+  text-align: left;
+  text-shadow: 2px 2px 1px #333;
+}
+.groupForm input {
+  border: 2px solid #5bf0b2;
+  background-color: transparent;
+  color: #5bf0b2;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 1px #333;
+          box-shadow: 2px 2px 1px #333;
+}
+.groupForm .message {
+  border: 2px solid #5bf0b2;
+  background-color: transparent;
+  color: #5bf0b2;
+  -webkit-box-shadow: 2px 2px 1px #333;
+          box-shadow: 2px 2px 1px #333;
+  resize: none;
+  margin-bottom: 40px;
 }
 
 .boxWrapper {
@@ -869,22 +925,6 @@ img {
   float: left;
   height: 100vh;
   width: 100vw;
-}
-
-.cohortSlide:nth-child(1) {
-  background-color: blue;
-}
-
-.cohortSlide:nth-child(2) {
-  background-color: blueviolet;
-}
-
-.cohortSlide:nth-child(3) {
-  background-color: cadetblue;
-}
-
-.cohortSlide:nth-child(4) {
-  background-color: cadetblue;
 }
 
 @-webkit-keyframes cohortSlide {
