@@ -53,12 +53,15 @@ h1 {
      
 }
 
-h2 {
+h3 {
      text-transform: uppercase;
+     margin: 20px 0;
+     font-family: $baseFont;
 }
 
 h4 {
      text-transform: uppercase;
+     font-family: $baseFont;
 }
 
 // use this for slideshow: https://codepen.io/daysahead/pen/mJqBge

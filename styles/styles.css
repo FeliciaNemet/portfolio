@@ -287,12 +287,15 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 {
+h3 {
   text-transform: uppercase;
+  margin: 20px 0;
+  font-family: "El Messiri", sans-serif;
 }
 
 h4 {
   text-transform: uppercase;
+  font-family: "El Messiri", sans-serif;
 }
 
 body {
@@ -307,18 +310,6 @@ body {
   margin: 0 auto;
 }
 
-.box {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.box::before {
-  display: table;
-  content: " ";
-}
-
 .topHeader .info {
   color: #fff;
   letter-spacing: 0.2px;
@@ -327,11 +318,6 @@ body {
 
 .textCenter {
   text-align: center;
-}
-
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
 }
 
 .noPadding {
@@ -450,16 +436,6 @@ a {
   color: #201e15;
 }
 
-.buttonBottom::before {
-  content: "";
-  font-style: normal normal normal 14px/1 FontAwesome;
-  position: absolute;
-  top: 5px;
-  left: -5.5px;
-  font-size: 1.05rem;
-  color: #201e15;
-}
-
 .nav {
   position: relative;
   min-height: 40px;
@@ -517,7 +493,6 @@ a {
   width: 23px;
   height: 15px;
   display: inline-block;
-  background-image: url();
   opacity: 0;
   position: absolute;
   left: 103%;
@@ -573,6 +548,29 @@ a {
   margin-top: -43px;
 }
 
+.topSlider .swiperBox {
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.topSlider .svgWrap {
+  height: 100vh;
+}
+
+.topSlider .imgWrap {
+  height: 100vh;
+}
+
+.swiperBox {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  direction: ltr;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  height: inherit;
+}
+
 .topSlider .swiperSlide {
   background-position: center;
 }
@@ -583,6 +581,16 @@ a {
   position: relative;
 }
 
+.svgWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100;
+  z-index: 10;
+  background-position: center;
+  background-size: cover;
+}
+
 .topSlider .wrapInfo {
   position: absolute;
   top: 50%;
@@ -591,6 +599,21 @@ a {
   width: 100%;
   text-align: center;
   z-index: 10;
+}
+
+.topSlider .titleSlide {
+  font-size: 67px;
+  font-weight: 200;
+  color: black;
+}
+
+.topSlider .titleSlide a {
+  color: #5bf0b2;
+  position: relative;
+}
+
+.marginLg25B {
+  margin-bottom: 25px;
 }
 
 .link {
@@ -614,10 +637,17 @@ a {
 }
 
 .about {
-  position: relative;
-  margin-top: -40px;
-  background-position-x: 50%;
-  background-position-y: 65%;
+  text-align: center;
+}
+.about h2 {
+  text-transform: uppercase;
+  font-family: "El Messiri", sans-serif;
+}
+
+.me {
+  width: 500px;
+  height: 500px;
+  border: 10px solid #5bf0b2;
 }
 
 .projects {
@@ -651,12 +681,27 @@ a {
   padding-left: 0;
 }
 
-.iPad1, .iPad2, .iPad3, .iPad4, .iPad5, .iPad6 {
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 20px;
+.iPod {
+  width: 200%;
+  margin-left: 10px;
+}
+
+.iPod h3 {
+  font-family: "El Messiri", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.iPod p {
+  font-family: "El Messiri", sans-serif;
+  font-size: 0.7rem;
+  opacity: 0.5;
+}
+
+.skills i {
+  position: relative;
+  padding: 10px;
+  font-size: 30px;
 }
 
 .skills .swiperBox .swiperWrapper {
@@ -669,8 +714,10 @@ a {
 }
 
 img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
+  border: 5px solid #5bf0b2;
+  margin: 40px;
 }
 
 .contactInfo {
@@ -713,43 +760,39 @@ img {
   letter-spacing: 1px;
 }
 
-p {
-  margin: 0 0 10px;
+.slideContent {
+  background-image: url("../assets/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.buttonBottom {
-  top: auto;
-  bottom: 0;
-  border-width: 0 26px 26px 26px;
-  border-color: transparent transparent #5bf0b2 transparent;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  left: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  z-index: 10;
-  cursor: pointer;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
-  -webkit-transition-timing-function: ease;
-          transition-timing-function: ease;
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
-  color: #201e15;
+.slideContent p {
+  padding: 100px;
 }
 
 .slideshow {
   overflow: hidden;
   height: 100vh;
   width: 100vw;
-  margin: 0;
+  margin: 0 0;
 }
 
 .slide-wrapper {
-  width: 400vw;
+  width: 310vw;
   -webkit-animation: slide 18s ease infinite;
           animation: slide 18s ease infinite;
 }
@@ -768,7 +811,7 @@ p {
 }
 
 .slide:nth-child(2) {
-  background-image: url("../assets/markus-spiske-cvBBO4PzWPg-unsplash.jpg");
+  background-image: url("../assets/ash-edmonds-XZ0xN0hmpi4-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -786,16 +829,16 @@ p {
     margin-left: 0px;
   }
   30% {
-    margin-left: -100vw;
+    margin-left: -120vw;
   }
   50% {
-    margin-left: -100vw;
+    margin-left: -120vw;
   }
   60% {
-    margin-left: -200vw;
+    margin-left: -220vw;
   }
   70% {
-    margin-left: -200vw;
+    margin-left: -220vw;
   }
 }
 
@@ -804,16 +847,16 @@ p {
     margin-left: 0px;
   }
   30% {
-    margin-left: -100vw;
+    margin-left: -120vw;
   }
   50% {
-    margin-left: -100vw;
+    margin-left: -120vw;
   }
   60% {
-    margin-left: -200vw;
+    margin-left: -220vw;
   }
   70% {
-    margin-left: -200vw;
+    margin-left: -220vw;
   }
 }
 .cohortSlideWrapper {
