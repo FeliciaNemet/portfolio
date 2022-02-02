@@ -2,8 +2,8 @@
 @import "typography";
 
 body {
-     color: #333;
-     background-color: gray;
+     color: $blueGreen;
+     background-color: $blah;
      overflow-x: hidden;
 }
 
@@ -13,34 +13,15 @@ body {
      margin: 0 auto;
 }
 
-.topHeader .info {
-     color: #fff;
-     letter-spacing: 0.2px;
-     word-spacing: 0.5px;
-}
+// .topHeader .info {
+//      color: #fff;
+//      letter-spacing: 0.2px;
+//      word-spacing: 0.5px;
+// }
 
 .textCenter {
      text-align: center;
 }
-
-
-.noPadding {
-     padding-left: 0;
-     padding-right: 0;
-}
-
-.colSm12 {
-     position: relative;
-     min-height: 1px;
-}
-
-.colLg4 {
-     position: relative;
-     min-height: 1px;
-     padding-left: 15px;
-     padding-right: 15px;
-}
-
 
 a, a:link, a:active, a:hover, a:focus {
      cursor: pointer;
@@ -52,26 +33,21 @@ a {
      background-color: transparent;
 }
 
-.buttonTopClose {
-     background-color: $blueGreen;
-     display: inline-block;
-     min-width: 35px;
-     min-height: 35px;
-     padding-top: 8px;
+.project .rhom {
+     transform: rotateZ(46deg);
+     height: 30px;
+     width: 30px;
      position: relative;
-     bottom: -27px;
-     cursor: pointer;
-     transition-property: all;
-     transition-duration: 0.5s;
-     transition-timing-function: ease;
-     transition-delay: 0s;
+     margin: 50px 0;
 }
+
 
 .rhombus {
      transform: rotateZ(46deg);
      height: 50px;
      width: 50px;
      position: relative;
+     margin-bottom: 30px;
 }
 
 .rhombus i {
@@ -80,128 +56,37 @@ a {
      font-size: 28px;
      top: 10px;
      left: 10px;
-}
-
-.topHeader span.cancel::before {
-     margin-left: 0;
-     display: inline-block;
-     color: #24231c;
-}
-
-
-
-
-
-.buttonTopToggle {
-     width: 0;
-     height: 0;
-     border-style: solid;
-     border-width: 26px 26px 0 26px;
-     border-color: $blueGreen transparent transparent transparent;
-     position: absolute;
-     top: 0;
-     left: 50%;
-     transform: translateY(-50%);
-     z-index: 10;
-     cursor: pointer;
-     transition-property: all;
-     transition-duration: 0.5s;
-     transition-timing-function: ease;
-     transition-delay: 0s;
-     color: #201e15;
-
-}
-
-.buttonTopToggle::before {
-     content: "";
-     font-style: normal normal normal 14px/1 FontAwesome;
-     position: absolute;
-     top: -25px;
-     left: -5.5px;
-     font-size: 1.05rem;
-     color: #201e15;
-}
-
-
-
-
-.nav {
-     position: relative;
-     min-height: 40px;
-     top: 33px;
+     color: black;
 }
 
 .logo {
      font-weight: 700;
      line-height: normal;
-     font-size: 36px;
-     color: #fff;
+     font-size: 3rem;
      text-transform: uppercase;
      letter-spacing: 1.5px;
      z-index: 100;
+     top: 90px;
+     left: 20px;
      position: relative;
      display: inline-block;
+     text-shadow: 2px 2px 1px $bubble;
+     p {
+          font-size: 2rem;
+          text-shadow: 2px 2px 1px $bubble;
+          color: black;
+          font-family: $baseFont;
+     }
 }
 
-
-.mainMenu {
-     padding: 0;
-     margin: 0;
-     transform: translateX(-200%);
-     position: fixed;
-     top: 0;
-     min-height: 40px;
-     height: 100%;
-     width: 100%;
-     background-color: rgba(0, 0, 0, 0.9); 
-     text-align: center;
-     transition-duration: 1s;
-     transition-property: all;
-     transition-timing-function: ease;
-     transition-delay: 0s;
-     z-index: 80;
-}
-
-.mainMenu > ul {
-          position: absolute;
-          left: 50%;
-          transform: translate(-50%);
-}
-
-.mainMenu li {
-     position: relative;
-}
-
-.mainMenu .menuItem a::after {
-     content: "";
-     width: 23px;
-     height: 15px;
-     display: inline-block;
-     opacity: 0;
-     position: absolute;
-     left: 103%;
-     top: 50%;
-     transform: translateY(-50%);
-     transition-property: all;
-     transition-duration: 1s;
-     transition-timing-function: ease-out;
-     transition-delay: 0s;
-}
-
-.mainMenu > ul > .menuItem > a {
-     display: block;
-     font-weight: 300;
-     letter-spacing: 0.96px;
-     line-height: 0.78125;
-}
-
-.nav .socialWrap {
+.socialWrap {
      position: static;
 }
 
 .socIcons.bottomIcon {
      position: absolute;
-     width: 100%;
+     width: 85%;
+     padding-top: 30px;
      text-align: center;
 }
 
@@ -217,80 +102,6 @@ a {
      transition-timing-function: ease;
      transition-delay: 0s;
      text-align: center;
-}
-.topSlider {
-     margin-top: -43px;
-     
-}
-
-.topSlider .swiperBox {
-     padding-bottom: 40px;
-     width: 100%;
-}
-
-.topSlider .svgWrap {
-     height: 100vh;
-}
-
-.topSlider .imgWrap {
-     height: 100vh;
-}
-
-
-.swiperBox {
-     margin: 0 auto;
-     position: relative;
-     overflow: hidden;
-     direction: ltr;
-     backface-visibility: hidden;
-     height: inherit;
-}
-
-
-.topSlider .swiperSlide {
-     background-position: center;
-}
-
-.swiperSlide {
-     background-position: center;
-     float: left;
-     position: relative;
-
-}
-
-.svgWrap {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100;
-     z-index: 10;
-     background-position: center;
-     background-size: cover;
-}
-
-
-.topSlider .wrapInfo {
-     position: absolute;
-     top: 50%;
-     transform: translateY(-23%);
-     width: 100%;
-     text-align: center;
-     z-index: 10;
-}
-
-.topSlider .titleSlide {
-     font-size: 67px;
-     font-weight: 200;
-     color: black;
-}
-
-.topSlider .titleSlide a {
-     color: $blueGreen;
-     position: relative;
-}
-
-.marginLg25B {
-     margin-bottom: 25px;
 }
 
 .link {
@@ -316,8 +127,13 @@ a {
           text-transform: uppercase;
           font-family: $baseFont;
           font-size: 3rem;
-          text-shadow: 2px 2px 1px $blueGreen;
+          text-shadow: 2px 2px 1px $bubble;
           text-align: left;
+     }
+
+     p {
+          font-size: 1.5rem;
+          margin-top: 40px;
      }
 }
 
@@ -335,7 +151,7 @@ a {
 
 .project h2 {
      font-size: 3rem;
-     text-shadow: 2px 2px 1px $blueGreen;
+     text-shadow: 2px 2px 1px $bubble;
      font-family: $baseFont;
      text-align: left;
      text-transform: uppercase;
@@ -345,26 +161,29 @@ a {
      display: flex;
      flex-direction: column;
      align-items: center;
-     border: 2px solid black;
      width: 20%;
      margin: 30px;
      text-align: center;
           h4 {
                font-size: 1.6rem;
                text-align: center;
+               margin: 20px 0;
           }
 }
 
+.skills {
+     margin: 100px auto;
+}
 
 .skills h3 {
      text-align: left;
      font-size: 3rem;
-     text-shadow: 2px 2px 1px $blueGreen;
+     text-shadow: 2px 2px 1px $bubble;
 }
 
 .techStack {
      display: flex;
-     flex-direction: row;
+     flex-direction: row; 
      flex-wrap: wrap;
 }
 
@@ -402,16 +221,12 @@ a {
      left: 5px;
 }
 
-
-
-
-img {
+.cube {
      width: 300px;
      height: 300px;
      border: 5px solid $blueGreen;
-     margin: 40px;
+     margin: 30px;
 }
-
 
 .contactInfo {
      text-align: center;
@@ -442,7 +257,7 @@ img {
 .form h3 {
      text-align: left;
      font-size: 3rem;
-     text-shadow: 2px 2px 1px $blueGreen;
+     text-shadow: 2px 2px 1px $bubble;
 }
 
 .groupForm {
@@ -489,7 +304,7 @@ img {
 }
 
 .footer .footerGrayscale {
-     filter: grayscale(100%);
+     filter: grayscale(50%);
 }
 
 .footer .copyright {
@@ -503,12 +318,17 @@ img {
      color: #fff;
      font-weight: 200;
      letter-spacing: 1px;
+     margin-bottom: 30px;
+}
+
+.copyright a {
+     color: $blueGreen;
 }
 
 
 
 .slideContent {
-     background-image: url('../assets/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg');
+     background-image: url('../assets/ash-edmonds-XZ0xN0hmpi4-unsplash.jpg');
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
@@ -519,9 +339,13 @@ img {
 }
 
 .slideContent {
-     p {
-          padding: 100px;
+
+     h4 {
+          text-shadow: 2px 2px 1px $blah;
+          margin-top: 30px;
+          font-size: 2rem;
      }
+     
 }
 
 
@@ -536,6 +360,7 @@ img {
 .slide-wrapper {
      width: 310vw;
      animation: slide 18s ease infinite;
+
 }
 
 .slide {
@@ -545,21 +370,21 @@ img {
 }
 
 .slide:nth-child(1) {
-     background-image: url('../assets/jacob-padilla-O3LVKottLPc-unsplash.jpg');
+     background-image: url('../assets/kenrick-mills-MF9Wy1NA55I-unsplash.jpg');
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
 }
 
 .slide:nth-child(2) {
-     background-image: url('../assets/ash-edmonds-XZ0xN0hmpi4-unsplash.jpg');
+     background-image: url('../assets/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg');
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
 }
 
 .slide:nth-child(3) {
-     background-image: url('../assets/jacob-padilla-O3LVKottLPc-unsplash.jpg');
+     background-image: url('../assets/kenrick-mills-MF9Wy1NA55I-unsplash.jpg');
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
@@ -568,18 +393,24 @@ img {
 
 @keyframes slide {
      20% {margin-left: 0px;}
-     30% {margin-left: -120vw}
-     50% {margin-left: -120vw;}
-     60% {margin-left: -220vw;}
-     70% {margin-left: -220vw;}
+     30% {margin-left: -100vw}
+     50% {margin-left: -100vw;}
+     60% {margin-left: -200vw;}
+     70% {margin-left: -200vw;}
 }
 
-
+.cohort {
+     h3 {
+          text-align: left;
+          font-size: 3rem;
+          text-shadow: 2px 2px 1px $bubble;
+     }
+}
 
 
 .cohortSlideWrapper {
      width: 400vw;
-     animation: cohortSlide 18s ease infinite;
+     animation: cohortSlide 22s ease infinite;
 }
 
 
@@ -601,11 +432,3 @@ img {
      90% {margin-left: -300vw;}
 }
 
-
-
-// .diamond {
-//      background-color: gold;
-//      height: 125px;
-//      width: 125px;
-//      transform: rotate(45deg);
-// }
