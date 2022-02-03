@@ -744,6 +744,7 @@ h4 {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  margin: 50px 100px;
 }
 
 .rhombusBox h4 {
