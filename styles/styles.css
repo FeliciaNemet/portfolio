@@ -360,7 +360,7 @@ h4 {
 }
 .about p {
   font-size: 1.5rem;
-  margin-top: 40px;
+  margin: 40px 0;
   font-family: "El Messiri", sans-serif;
   letter-spacing: 1.5px;
   line-height: 1.5;
@@ -730,6 +730,7 @@ h4 {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .rhombusBox {
@@ -744,7 +745,7 @@ h4 {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin: 50px 100px;
+  margin: 50px auto;
 }
 
 .rhombusBox h4 {
@@ -923,6 +924,11 @@ h4 {
 
   .rhombusBox {
     padding: 40px 100px;
+  }
+}
+@media (max-width: 1305px) {
+  .rhombusBox {
+    margin: 50px 100px;
   }
 }
 @media (max-width: 1270px) {
