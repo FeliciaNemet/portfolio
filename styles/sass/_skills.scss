@@ -15,8 +15,9 @@
 .rhombusBox {
      display: flex;
      flex-direction: column;
-     margin: 100px;
+     align-items: center;
      text-align: center;
+     
 }
 .rhombusBox h4 {
      margin-top: 40px;

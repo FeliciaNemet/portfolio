@@ -362,6 +362,8 @@ h4 {
   font-size: 1.5rem;
   margin-top: 40px;
   font-family: "El Messiri", sans-serif;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
 }
 
 .me {
@@ -440,7 +442,7 @@ h4 {
 }
 
 .slideContent h4 {
-  text-shadow: 2px 2px 1px #353839;
+  text-shadow: 2px 2px 1px #383838;
   margin-top: 30px;
   font-size: 2rem;
 }
@@ -738,7 +740,9 @@ h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
 }
 
@@ -814,6 +818,8 @@ h4 {
 }
 .wrap p {
   font-family: "El Messiri", sans-serif;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
 }
 
 .project .rhom {
@@ -924,7 +930,7 @@ h4 {
   }
 
   .rhombusBox {
-    padding: 40px 60px;
+    width: 100%;
   }
 }
 @media (max-width: 941px) {
@@ -939,7 +945,7 @@ h4 {
   }
 
   .rhombusBox {
-    padding: 40px 200px;
+    width: 100%;
   }
 
   .projects .wrap {
@@ -965,7 +971,7 @@ h4 {
   }
 
   .rhombusBox {
-    padding: 20px 200px;
+    width: 100%;
   }
 
   .projects .wrap {
@@ -978,12 +984,8 @@ h4 {
     width: 300px;
   }
 
-  .techstack {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: 0 auto;
+  .rhombusBox {
+    width: 100%;
   }
 
   .projects .wrap {
@@ -996,7 +998,7 @@ h4 {
 }
 body {
   color: #5bf0b2;
-  background-color: #353839;
+  background-color: #383838;
   overflow-x: hidden;
 }
 

@@ -16,7 +16,7 @@
           }
      }
      .rhombusBox {
-          padding: 40px 60px;
+          width: 100%;
      }
 }
 
@@ -28,7 +28,7 @@
      }
 
      .rhombusBox {
-          padding: 40px 200px;
+          width: 100%;
      }
 
      .projects {
@@ -54,7 +54,7 @@
      }
 
      .rhombusBox {
-          padding: 20px 200px;
+          width: 100%;
      }
      .projects {
           .wrap {
@@ -71,9 +71,8 @@
           width: 300px;
      }
 
-     .techstack {
-          flex-direction: column;
-          margin: 0 auto;
+     .rhombusBox{
+          width: 100%;
      }
      .projects {
           .wrap {
