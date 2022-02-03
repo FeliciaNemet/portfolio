@@ -358,10 +358,6 @@ a, link, a:active, a:hover, a:focus {
   color: #5bf0b2;
 }
 
-a {
-  background-color: transparent;
-}
-
 .logo {
   font-weight: 700;
   line-height: normal;
@@ -565,6 +561,11 @@ a {
   margin: 50px 0;
 }
 
+.rhom i:hover, .rhom i:focus {
+  color: #5bf0b2;
+  cursor: pointer;
+}
+
 .rhombus {
   -webkit-transform: rotateZ(46deg);
           transform: rotateZ(46deg);
@@ -582,6 +583,11 @@ a {
   top: 10px;
   left: 10px;
   color: white;
+}
+
+.rhombus i:hover, .rhombus i:focus, .rhombus a {
+  color: #5bf0b2;
+  cursor: pointer;
 }
 
 .cube {
@@ -603,6 +609,12 @@ a {
   font-family: "El Messiri", sans-serif;
   -webkit-box-shadow: 2px 2px 1px #333;
           box-shadow: 2px 2px 1px #333;
+  cursor: pointer;
+}
+.contactForm button:hover {
+  color: #5bf0b2;
+  background-color: white;
+  cursor: pointer;
 }
 
 .form {

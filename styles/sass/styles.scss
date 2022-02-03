@@ -25,10 +25,6 @@ a, link, a:active, a:hover, a:focus {
      color: $blueGreen;
 }
 
-a {
-     background-color: transparent;
-}
-
 .logo {
      font-weight: 700;
      line-height: normal;
@@ -200,6 +196,11 @@ a {
      margin: 50px 0;
 }
 
+.rhom i:hover, .rhom i:focus {
+     color: $blueGreen;
+     cursor: pointer;
+}
+
 .rhombus {
      transform: rotateZ(46deg);
      height: 50px;
@@ -215,6 +216,11 @@ a {
      top: 10px;
      left: 10px;
      color: white;
+}
+
+.rhombus i:hover, .rhombus i:focus, .rhombus a {
+     color: $blueGreen;
+     cursor: pointer;
 }
 
 .cube {
@@ -235,6 +241,13 @@ a {
           color: #333;
           font-family: $baseFont;
           box-shadow: 2px 2px 1px #333;
+          cursor: pointer;
+     }
+
+     button:hover {
+          color: $blueGreen;
+          background-color: white;
+          cursor: pointer;
      }
 }
 
