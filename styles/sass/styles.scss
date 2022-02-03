@@ -18,40 +18,15 @@ body {
      text-align: center;
 }
 
-a, a:link, a:active, a:hover, a:focus {
+a, link, a:active, a:hover, a:focus {
      cursor: pointer;
      text-decoration: none;
      outline: none;
+     color: $blueGreen;
 }
 
 a {
      background-color: transparent;
-}
-
-.project .rhom {
-     transform: rotateZ(46deg);
-     height: 30px;
-     width: 30px;
-     position: relative;
-     margin: 50px 0;
-}
-
-
-.rhombus {
-     transform: rotateZ(46deg);
-     height: 50px;
-     width: 50px;
-     position: relative;
-     margin-bottom: 30px;
-}
-
-.rhombus i {
-     position: absolute;
-     transform: rotateZ(-46deg);
-     font-size: 28px;
-     top: 10px;
-     left: 10px;
-     color: white;
 }
 
 .logo {
@@ -117,6 +92,7 @@ a {
 
 
 .about {
+     padding-top: 100px;
      text-align: center;
      h2 {
           text-transform: uppercase;
@@ -216,18 +192,36 @@ a {
      left: 5px;
 }
 
+.project .rhom {
+     transform: rotateZ(46deg);
+     height: 30px;
+     width: 30px;
+     position: relative;
+     margin: 50px 0;
+}
+
+.rhombus {
+     transform: rotateZ(46deg);
+     height: 50px;
+     width: 50px;
+     position: relative;
+     margin-bottom: 30px;
+}
+
+.rhombus i {
+     position: absolute;
+     transform: rotateZ(-46deg);
+     font-size: 28px;
+     top: 10px;
+     left: 10px;
+     color: white;
+}
+
 .cube {
      width: 300px;
      height: 300px;
      border: 5px solid $blueGreen;
      margin: 30px;
-}
-
-.contactInfo {
-     text-align: center;
-     position: relative;
-     z-index: 10;
-     
 }
 
 .contactForm {
@@ -284,12 +278,6 @@ a {
           margin-bottom: 40px;
      }
 
-}
-
-
-.boxWrapper {
-     position: relative;
-     z-index: 10;
 }
 
 .footer section{
