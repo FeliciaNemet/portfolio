@@ -356,6 +356,7 @@ a, link, a:active, a:hover, a:focus {
   text-decoration: none;
   outline: none;
   color: #5bf0b2;
+  font-family: "El Messiri", sans-serif;
 }
 
 .logo {
@@ -378,6 +379,104 @@ a, link, a:active, a:hover, a:focus {
   font-family: "El Messiri", sans-serif;
 }
 
+.slideshow {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 0;
+}
+
+.slide-wrapper {
+  width: 310vw;
+  -webkit-animation: slide 18s ease infinite;
+          animation: slide 18s ease infinite;
+  height: 100vh;
+}
+
+.slide {
+  float: left;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slide:nth-child(1) {
+  background-image: url("../assets/kenrick-mills-MF9Wy1NA55I-unsplash(2).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-child(2) {
+  background-image: url("../assets/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-child(3) {
+  background-image: url("../assets/kenrick-mills-MF9Wy1NA55I-unsplash(2).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@-webkit-keyframes slide {
+  20% {
+    margin-left: 0px;
+  }
+  30% {
+    margin-left: -100vw;
+  }
+  50% {
+    margin-left: -100vw;
+  }
+  60% {
+    margin-left: -200vw;
+  }
+  70% {
+    margin-left: -200vw;
+  }
+}
+
+@keyframes slide {
+  20% {
+    margin-left: 0px;
+  }
+  30% {
+    margin-left: -100vw;
+  }
+  50% {
+    margin-left: -100vw;
+  }
+  60% {
+    margin-left: -200vw;
+  }
+  70% {
+    margin-left: -200vw;
+  }
+}
+.about {
+  padding-top: 100px;
+  text-align: center;
+}
+.about h2 {
+  text-transform: uppercase;
+  font-family: "El Messiri", sans-serif;
+  font-size: 3rem;
+  text-shadow: 2px 2px 1px #e7feff;
+  text-align: left;
+}
+.about p {
+  font-size: 1.5rem;
+  margin-top: 40px;
+}
+
+.me {
+  width: 500px;
+  height: 500px;
+  border: 10px solid #5bf0b2;
+}
+
 .socialWrap {
   position: static;
 }
@@ -385,7 +484,7 @@ a, link, a:active, a:hover, a:focus {
 .socIcons.bottomIcon {
   position: absolute;
   width: 85%;
-  padding-top: 30px;
+  padding: 50px;
   text-align: center;
 }
 
@@ -409,7 +508,7 @@ a, link, a:active, a:hover, a:focus {
 
 .link {
   font-weight: 700;
-  color: black;
+  color: white;
   position: relative;
   text-transform: uppercase;
   display: inline-block;
@@ -427,71 +526,8 @@ a, link, a:active, a:hover, a:focus {
   line-height: 40px;
 }
 
-.about {
-  padding-top: 100px;
-  text-align: center;
-}
-.about h2 {
-  text-transform: uppercase;
-  font-family: "El Messiri", sans-serif;
-  font-size: 3rem;
-  text-shadow: 2px 2px 1px #e7feff;
-  text-align: left;
-}
-.about p {
-  font-size: 1.5rem;
-  margin-top: 40px;
-}
-
-.me {
-  width: 500px;
-  height: 500px;
-  border: 10px solid #5bf0b2;
-}
-
-.projects {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.project h2 {
-  font-size: 3rem;
-  text-shadow: 2px 2px 1px #e7feff;
-  font-family: "El Messiri", sans-serif;
-  text-align: left;
-  text-transform: uppercase;
-}
-
-.wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 20%;
-  margin: 30px;
-  text-align: center;
-}
-.wrap h4 {
-  font-size: 1.6rem;
-  text-align: center;
-  margin: 20px 0;
-}
-
 .skills {
-  margin: 100px auto;
+  padding: 100px 0;
 }
 
 .skills h3 {
@@ -552,6 +588,48 @@ a, link, a:active, a:hover, a:focus {
   left: 5px;
 }
 
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.project h2 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 1px #e7feff;
+  font-family: "El Messiri", sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 100px;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  margin: 30px;
+  text-align: center;
+}
+.wrap h4 {
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
 .project .rhom {
   -webkit-transform: rotateZ(46deg);
           transform: rotateZ(46deg);
@@ -566,6 +644,111 @@ a, link, a:active, a:hover, a:focus {
   cursor: pointer;
 }
 
+.bop {
+  color: white;
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+}
+
+.bop:hover, .bop:focus {
+  color: #5bf0b2;
+  cursor: pointer;
+}
+
+.slideContent {
+  background-image: url("../assets/ash-edmonds-XZ0xN0hmpi4-unsplash(2).jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slideContent h4 {
+  text-shadow: 2px 2px 1px #353839;
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+.cohort h3 {
+  text-align: left;
+  font-size: 3rem;
+  text-shadow: 2px 2px 1px #e7feff;
+  padding-bottom: 100px;
+}
+
+.cohortSlideWrapper {
+  width: 400vw;
+  -webkit-animation: cohortSlide 22s ease infinite;
+          animation: cohortSlide 22s ease infinite;
+  height: 100vh;
+}
+
+.cohortSlide {
+  float: left;
+  height: 100vh;
+  width: 100vw;
+}
+
+@-webkit-keyframes cohortSlide {
+  20% {
+    margin-left: 0px;
+  }
+  30% {
+    margin-left: -100vw;
+  }
+  50% {
+    margin-left: -100vw;
+  }
+  60% {
+    margin-left: -200vw;
+  }
+  70% {
+    margin-left: -200vw;
+  }
+  80% {
+    margin-left: -300vw;
+  }
+  90% {
+    margin-left: -300vw;
+  }
+}
+
+@keyframes cohortSlide {
+  20% {
+    margin-left: 0px;
+  }
+  30% {
+    margin-left: -100vw;
+  }
+  50% {
+    margin-left: -100vw;
+  }
+  60% {
+    margin-left: -200vw;
+  }
+  70% {
+    margin-left: -200vw;
+  }
+  80% {
+    margin-left: -300vw;
+  }
+  90% {
+    margin-left: -300vw;
+  }
+}
 .rhombus {
   -webkit-transform: rotateZ(46deg);
           transform: rotateZ(46deg);
@@ -594,7 +777,7 @@ a, link, a:active, a:hover, a:focus {
   width: 300px;
   height: 300px;
   border: 5px solid #5bf0b2;
-  margin: 30px;
+  margin: 50px;
 }
 
 .contactForm {
@@ -696,173 +879,4 @@ a, link, a:active, a:hover, a:focus {
 
 .copyright a {
   color: #5bf0b2;
-}
-
-.slideContent {
-  background-image: url("../assets/ash-edmonds-XZ0xN0hmpi4-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.slideContent h4 {
-  text-shadow: 2px 2px 1px #353839;
-  margin-top: 30px;
-  font-size: 2rem;
-}
-
-.slideshow {
-  overflow: hidden;
-  height: 100vh;
-  width: 100vw;
-  margin: 0 0;
-}
-
-.slide-wrapper {
-  width: 310vw;
-  -webkit-animation: slide 18s ease infinite;
-          animation: slide 18s ease infinite;
-  height: 100vh;
-}
-
-.slide {
-  float: left;
-  height: 100vh;
-  width: 100vw;
-}
-
-.slide:nth-child(1) {
-  background-image: url("../assets/kenrick-mills-MF9Wy1NA55I-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.slide:nth-child(2) {
-  background-image: url("../assets/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.slide:nth-child(3) {
-  background-image: url("../assets/kenrick-mills-MF9Wy1NA55I-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-@-webkit-keyframes slide {
-  20% {
-    margin-left: 0px;
-  }
-  30% {
-    margin-left: -100vw;
-  }
-  50% {
-    margin-left: -100vw;
-  }
-  60% {
-    margin-left: -200vw;
-  }
-  70% {
-    margin-left: -200vw;
-  }
-}
-
-@keyframes slide {
-  20% {
-    margin-left: 0px;
-  }
-  30% {
-    margin-left: -100vw;
-  }
-  50% {
-    margin-left: -100vw;
-  }
-  60% {
-    margin-left: -200vw;
-  }
-  70% {
-    margin-left: -200vw;
-  }
-}
-.cohort h3 {
-  text-align: left;
-  font-size: 3rem;
-  text-shadow: 2px 2px 1px #e7feff;
-}
-
-.cohortSlideWrapper {
-  width: 400vw;
-  -webkit-animation: cohortSlide 22s ease infinite;
-          animation: cohortSlide 22s ease infinite;
-  height: 100vh;
-}
-
-.cohortSlide {
-  float: left;
-  height: 100vh;
-  width: 100vw;
-}
-
-@-webkit-keyframes cohortSlide {
-  20% {
-    margin-left: 0px;
-  }
-  30% {
-    margin-left: -100vw;
-  }
-  50% {
-    margin-left: -100vw;
-  }
-  60% {
-    margin-left: -200vw;
-  }
-  70% {
-    margin-left: -200vw;
-  }
-  80% {
-    margin-left: -300vw;
-  }
-  90% {
-    margin-left: -300vw;
-  }
-}
-
-@keyframes cohortSlide {
-  20% {
-    margin-left: 0px;
-  }
-  30% {
-    margin-left: -100vw;
-  }
-  50% {
-    margin-left: -100vw;
-  }
-  60% {
-    margin-left: -200vw;
-  }
-  70% {
-    margin-left: -200vw;
-  }
-  80% {
-    margin-left: -300vw;
-  }
-  90% {
-    margin-left: -300vw;
-  }
 }
