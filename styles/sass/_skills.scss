@@ -1,0 +1,44 @@
+// SKILLS ******************
+.skills {
+     padding: 100px 0;
+}
+.skills h3 {
+     text-align: left;
+     font-size: 3rem;
+     text-shadow: 2px 2px 1px $bubble;
+}
+.techStack {
+     display: flex;
+     flex-direction: row; 
+     flex-wrap: wrap;
+}
+.rhombusBox {
+     display: flex;
+     flex-direction: column;
+     margin: 100px;
+     text-align: center;
+}
+.rhombusBox h4 {
+     margin-top: 40px;
+}
+.rhom {
+     padding: 40px;
+     transform: rotateZ(46deg);
+     height: 50px;
+     width: 50px;
+     position: relative;
+     border: 2px solid $blueGreen;
+     height: 50px;
+     width: 50px;
+     
+}
+.rhom i {
+     transform: rotateZ(-46deg);
+     margin-left: 15px;
+     margin-right: 15px;
+     display: inline-block;
+     position: absolute;
+     font-size: 40px;
+     top: 20px;
+     left: 5px;
+}

@@ -1,0 +1,29 @@
+
+// FOOTER **************
+.footer section{
+     margin-bottom: -10px;
+     display: flex;
+     flex-direction: column;
+}
+
+.footer .footerGrayscale {
+     filter: grayscale(50%);
+}
+
+.footer .copyright {
+     position: absolute;
+     z-index: 10;
+     width: 100%;
+     text-align: center;
+}
+
+.footer .copyright p {
+     color: #fff;
+     font-weight: 200;
+     letter-spacing: 1px;
+     margin-bottom: 30px;
+}
+
+.copyright a {
+     color: $blueGreen;
+}

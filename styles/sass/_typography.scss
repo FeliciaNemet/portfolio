@@ -1,7 +1,6 @@
 $blueGreen: #5bf0b2;
 $bubble: #e7feff;
 $blah: #353839;
-$headerFont: 'Exo 2', sans-serif;
 $logoFont: 'Play', sans-serif;
 $baseFont: 'El Messiri', sans-serif;
 
@@ -13,6 +12,17 @@ html {
 
 a {
      text-decoration: none;
+}
+
+.textCenter {
+     text-align: center;
+}
+a, link, a:active, a:hover, a:focus {
+     cursor: pointer;
+     text-decoration: none;
+     outline: none;
+     color: $blueGreen;
+     font-family: $baseFont;
 }
 
 ol, ul {

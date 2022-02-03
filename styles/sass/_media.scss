@@ -1,0 +1,89 @@
+@media(max-width: 1342px) {
+     .projects {
+          .wrap {
+               width: 100%;
+          }
+     }
+     .rhombusBox {
+          padding: 40px 100px;
+     }
+}
+
+@media(max-width: 1270px) {
+     .projects {
+          .wrap {
+               width: 100%;
+          }
+     }
+     .rhombusBox {
+          padding: 40px 60px;
+     }
+}
+
+
+@media(max-width: 941px) {
+     .skills {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .rhombusBox {
+          padding: 40px 200px;
+     }
+
+     .projects {
+          .wrap {
+               width: 100%;
+          }
+     }
+
+     .cohort h3 {
+          padding-top: 50px;
+     }
+}
+
+
+@media(max-width: 767px) {
+     .me {
+          height: 400px;
+          width: 400px;
+          margin-top: 50px;
+     }
+     .techstack {
+          flex-direction: column;
+     }
+
+     .rhombusBox {
+          padding: 20px 200px;
+     }
+     .projects {
+          .wrap {
+               width: 100%;
+          }
+     }
+
+}
+
+
+@media(max-width: 480px) {
+     .me {
+          height: 300px;
+          width: 300px;
+     }
+
+     .techstack {
+          flex-direction: column;
+          margin: 0 auto;
+     }
+     .projects {
+          .wrap {
+               width: 100%;
+          }
+     }
+     
+     .contactForm {
+          width: 100%;
+     }
+
+
+}
