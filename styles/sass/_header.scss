@@ -21,6 +21,8 @@
           left: 20%;
           position: absolute;
           animation: bounce 3s infinite;
+          color: black;
+          text-shadow: 2px 2px 1px $bubble;
      }
      @keyframes bounce {
      0%, 20%, 50%, 80%, 100% {

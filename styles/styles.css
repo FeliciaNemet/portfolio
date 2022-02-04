@@ -570,6 +570,8 @@ h4 {
   position: absolute;
   -webkit-animation: bounce 3s infinite;
           animation: bounce 3s infinite;
+  color: black;
+  text-shadow: 2px 2px 1px #e7feff;
 }
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
