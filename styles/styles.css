@@ -403,7 +403,7 @@ h4 {
 
 .link {
   font-weight: 700;
-  color: white;
+  color: #e7feff;
   position: relative;
   text-transform: uppercase;
   display: inline-block;
@@ -530,7 +530,7 @@ h4 {
   font-size: 28px;
   top: 10px;
   left: 10px;
-  color: white;
+  color: #e7feff;
 }
 
 .rhombus i:hover, .rhombus i:focus, .rhombus a {
@@ -702,7 +702,7 @@ h4 {
 }
 
 .footer .copyright p {
-  color: #fff;
+  color: #e7feff;
   font-weight: 200;
   letter-spacing: 1px;
   margin-bottom: 30px;
@@ -841,7 +841,7 @@ h4 {
 }
 
 .bop {
-  color: white;
+  color: #e7feff;
   position: absolute;
   bottom: 80px;
   right: 80px;
@@ -868,7 +868,7 @@ h4 {
 }
 .contactForm button:hover {
   color: #5bf0b2;
-  background-color: white;
+  background-color: #e7feff;
   cursor: pointer;
 }
 
