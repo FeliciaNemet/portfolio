@@ -2,7 +2,7 @@ window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).
   /* customize formbutton below*/     
   formbutton("create", {
     action: "https://formspree.io/f/mwkylqwd",
-    title: "How can we help?",
+    title: "May I help?",
     fields: [
       { 
         type: "email", 
@@ -15,7 +15,7 @@ window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).
         type: "textarea",
         label: "Message:",
         name: "message",
-        placeholder: "What's on your mind?",
+        placeholder: "What are your thoughts / queries?",
       },
       { type: "submit" }      
     ],
