@@ -9,10 +9,10 @@
      left: 20px;
      position: absolute;
      display: inline-block;
-     text-shadow: 2px 2px 1px $bubble;
+     text-shadow: 2px 2px 1px $blah;
      p {
           font-size: 2rem;
-          text-shadow: 2px 2px 1px $bubble;
+          text-shadow: 2px 2px 1px $blah;
           color: black;
           font-family: $logoFont;
      }
@@ -22,7 +22,7 @@
           position: absolute;
           animation: bounce 3s infinite;
           color: black;
-          text-shadow: 2px 2px 1px $bubble;
+          text-shadow: 2px 2px 1px $blah;
      }
      @keyframes bounce {
      0%, 20%, 50%, 80%, 100% {

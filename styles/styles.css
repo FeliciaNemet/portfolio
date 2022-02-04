@@ -556,11 +556,11 @@ h4 {
   left: 20px;
   position: absolute;
   display: inline-block;
-  text-shadow: 2px 2px 1px #e7feff;
+  text-shadow: 2px 2px 1px #383838;
 }
 .logo p {
   font-size: 2rem;
-  text-shadow: 2px 2px 1px #e7feff;
+  text-shadow: 2px 2px 1px #383838;
   color: black;
   font-family: "Play", sans-serif;
 }
@@ -571,7 +571,7 @@ h4 {
   -webkit-animation: bounce 3s infinite;
           animation: bounce 3s infinite;
   color: black;
-  text-shadow: 2px 2px 1px #e7feff;
+  text-shadow: 2px 2px 1px #383838;
 }
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -679,7 +679,6 @@ h4 {
   }
 }
 .footer section {
-  margin-bottom: -10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -705,7 +704,7 @@ h4 {
   color: #e7feff;
   font-weight: 200;
   letter-spacing: 1px;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 
 .copyright a {
@@ -862,13 +861,17 @@ h4 {
   background-color: #5bf0b2;
   color: #333;
   font-family: "El Messiri", sans-serif;
-  -webkit-box-shadow: 2px 2px 1px #333;
-          box-shadow: 2px 2px 1px #333;
+  -webkit-box-shadow: 2px 2px 1px #e7feff;
+          box-shadow: 2px 2px 1px #e7feff;
   cursor: pointer;
+  padding: 0.3em 0.2em;
+  font-size: 1.1rem;
 }
 .contactForm button:hover {
   color: #5bf0b2;
   background-color: #e7feff;
+  -webkit-box-shadow: 2px 2px 1px black;
+          box-shadow: 2px 2px 1px black;
   cursor: pointer;
 }
 
@@ -891,30 +894,32 @@ h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 10px 0;
 }
 .groupForm label {
   text-transform: uppercase;
   font-family: "El Messiri", sans-serif;
   color: #5bf0b2;
   letter-spacing: 1.5px;
-  padding: 10px;
+  padding: 10px 0;
   text-align: left;
-  text-shadow: 2px 2px 1px #333;
 }
 .groupForm input {
   border: 2px solid #5bf0b2;
   background-color: transparent;
   color: #5bf0b2;
   text-align: center;
-  -webkit-box-shadow: 2px 2px 1px #333;
-          box-shadow: 2px 2px 1px #333;
+  padding: 1em 0.5em;
+  -webkit-box-shadow: 3px 3px 1px #e7feff;
+          box-shadow: 3px 3px 1px #e7feff;
+  font-size: 1.1rem;
 }
 .groupForm .message {
   border: 2px solid #5bf0b2;
   background-color: transparent;
   color: #5bf0b2;
-  -webkit-box-shadow: 2px 2px 1px #333;
-          box-shadow: 2px 2px 1px #333;
+  -webkit-box-shadow: 3px 3px 1px #e7feff;
+          box-shadow: 3px 3px 1px #e7feff;
   resize: none;
   margin-bottom: 40px;
 }
