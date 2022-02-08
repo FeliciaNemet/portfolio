@@ -933,7 +933,7 @@ h4 {
   padding-top: 20px;
 }
 
-@media (max-width: 1342px) {
+@media (max-width: 1500px) {
   .projects .wrap {
     width: 100%;
   }
@@ -960,8 +960,7 @@ h4 {
             flex-direction: row;
     margin: 0 auto;
   }
-}
-@media (max-width: 1305px) {
+
   .rhombusBox {
     margin: 50px 100px;
   }
