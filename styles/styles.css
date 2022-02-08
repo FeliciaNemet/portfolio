@@ -386,7 +386,7 @@ h4 {
 }
 
 .socIcons a {
-  border: 2px solid #5bf0b2;
+  border: 3px solid #5bf0b2;
   min-height: 30px;
   min-width: 30px;
   margin-left: 15px;
@@ -401,6 +401,10 @@ h4 {
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
   text-align: center;
+}
+
+.socIcons .rhombus i {
+  font-size: 40px;
 }
 
 .link {
@@ -519,8 +523,8 @@ h4 {
 .rhombus {
   -webkit-transform: rotateZ(46deg);
           transform: rotateZ(46deg);
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   position: relative;
   margin-bottom: 30px;
 }
@@ -529,9 +533,9 @@ h4 {
   position: absolute;
   -webkit-transform: rotateZ(-46deg);
           transform: rotateZ(-46deg);
-  font-size: 28px;
-  top: 10px;
-  left: 10px;
+  font-size: 40px;
+  top: 15px;
+  left: 15px;
   color: #e7feff;
 }
 
@@ -762,7 +766,7 @@ h4 {
   height: 50px;
   width: 50px;
   position: relative;
-  border: 2px solid #5bf0b2;
+  border: 3px solid #5bf0b2;
   height: 50px;
   width: 50px;
 }
@@ -934,8 +938,27 @@ h4 {
     width: 100%;
   }
 
-  .rhombusBox {
-    padding: 40px 100px;
+  .techstack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .box1, .box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto;
   }
 }
 @media (max-width: 1305px) {
@@ -946,6 +969,30 @@ h4 {
 @media (max-width: 1270px) {
   .projects .wrap {
     width: 100%;
+  }
+
+  .techstack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  .box1, .box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
   }
 
   .rhombusBox {
@@ -963,8 +1010,29 @@ h4 {
             flex-direction: column;
   }
 
+  .techstack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  .box1, .box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
   .rhombusBox {
     width: 100%;
+    margin: 50px 100px;
   }
 
   .projects .wrap {

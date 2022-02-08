@@ -4,8 +4,15 @@
                width: 100%;
           }
      }
-     .rhombusBox {
-          padding: 40px 100px;
+     .techstack {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+     }
+     .box1, .box2 {
+          display: flex;
+          flex-direction: row;
+          margin: 0 auto;
      }
 }
 @media(max-width: 1305px) {
@@ -19,6 +26,16 @@
                width: 100%;
           }
      }
+     .techstack {
+          display: flex;
+          flex-direction: row;
+     }
+     .box1, .box2 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 0 auto;
+     }
      .rhombusBox {
           width: 100%;
      }
@@ -28,9 +45,18 @@
           display: flex;
           flex-direction: column;
      }
+     .techstack {
+          display: flex;
+          flex-direction: row;
+     }
+     .box1, .box2 {
+          display: flex;
+          flex-direction: column;
+     }
 
      .rhombusBox {
           width: 100%;
+          margin: 50px 100px;
      }
 
      .projects {

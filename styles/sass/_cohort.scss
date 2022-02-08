@@ -45,17 +45,17 @@
 }
 .rhombus {
      transform: rotateZ(46deg);
-     height: 50px;
-     width: 50px;
+     height: 70px;
+     width: 70px;
      position: relative;
      margin-bottom: 30px;
 }
 .rhombus i {
      position: absolute;
      transform: rotateZ(-46deg);
-     font-size: 28px;
-     top: 10px;
-     left: 10px;
+     font-size: 40px;
+     top: 15px;
+     left: 15px;
      color: $bubble;
 }
 .rhombus i:hover, .rhombus i:focus, .rhombus a {
