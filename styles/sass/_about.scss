@@ -15,12 +15,14 @@
           font-family: $baseFont;
           letter-spacing: 1.5px;
           line-height: 1.5;
+          text-align: justify;
      }
 }
 .me {
      width: 500px;
      height: 500px;
      border: 10px solid $blueGreen;
+     margin-top: 20px;
 }
 .socialWrap {
      position: static;
