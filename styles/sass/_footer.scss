@@ -1,7 +1,6 @@
 
 // FOOTER **************
 .footer section{
-     margin-bottom: -10px;
      display: flex;
      flex-direction: column;
 }
@@ -18,10 +17,10 @@
 }
 
 .footer .copyright p {
-     color: #fff;
+     color: $bubble;
      font-weight: 200;
      letter-spacing: 1px;
-     margin-bottom: 30px;
+     margin: 30px 0;
 }
 
 .copyright a {

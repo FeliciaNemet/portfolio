@@ -8,12 +8,15 @@
           background-color: $blueGreen;
           color: #333;
           font-family: $baseFont;
-          box-shadow: 2px 2px 1px #333;
+          box-shadow: 2px 2px 1px $bubble;
           cursor: pointer;
+          padding: .3em .2em;
+          font-size: 1.1rem;
      }
      button:hover {
           color: $blueGreen;
-          background-color: white;
+          background-color: $bubble;
+          box-shadow: 2px 2px 1px black;
           cursor: pointer;
      }
 }
@@ -29,27 +32,30 @@
 .groupForm {
      display: flex;
      flex-direction: column;
+     margin: 10px 0;
      label {
           text-transform: uppercase;
           font-family: $baseFont;
           color: $blueGreen;
           letter-spacing: 1.5px;
-          padding: 10px;
+          padding: 10px 0;
           text-align: left;
-          text-shadow: 2px 2px 1px #333;
+          
      }
      input {
           border: 2px solid $blueGreen;
           background-color: transparent;
           color: $blueGreen;
           text-align: center;
-          box-shadow: 2px 2px 1px #333;
+          padding: 1em .5em;
+          box-shadow: 3px 3px 1px $bubble;
+          font-size: 1.1rem;
      }
      .message {
           border: 2px solid $blueGreen;
           background-color: transparent;
           color: $blueGreen;
-          box-shadow: 2px 2px 1px #333;
+          box-shadow: 3px 3px 1px $bubble;
           resize: none;
           margin-bottom: 40px;
           text-align: center;
