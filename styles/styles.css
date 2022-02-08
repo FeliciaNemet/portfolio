@@ -364,12 +364,14 @@ h4 {
   font-family: "El Messiri", sans-serif;
   letter-spacing: 1.5px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 .me {
   width: 500px;
   height: 500px;
   border: 10px solid #5bf0b2;
+  margin-top: 20px;
 }
 
 .socialWrap {
@@ -915,6 +917,8 @@ h4 {
           box-shadow: 2px 2px 1px #333;
   resize: none;
   margin-bottom: 40px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 @media (max-width: 1342px) {
