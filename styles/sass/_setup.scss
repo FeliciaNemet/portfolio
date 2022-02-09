@@ -187,7 +187,6 @@ template {
 [hidden] {
   display: none;
 }
-
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -196,19 +195,16 @@ template {
   clear: both;
   height: 0;
 }
-
 html {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
-
 .sr-only {
   position: absolute;
   width: 1px;

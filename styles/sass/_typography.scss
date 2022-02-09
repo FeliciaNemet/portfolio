@@ -4,16 +4,12 @@ $blah: #383838;
 $logoFont: 'Play', sans-serif;
 $baseFont: 'El Messiri', sans-serif;
 
-
-
 html {
      font-size: 125%;
 }
-
 a {
      text-decoration: none;
 }
-
 .textCenter {
      text-align: center;
 }
@@ -24,13 +20,11 @@ a, link, a:active, a:hover, a:focus {
      color: $blueGreen;
      font-family: $baseFont;
 }
-
 ol, ul {
      margin-top: 0;
      margin-bottom: 10px;
      list-style: none;
 }
-
 .logo {
      margin-left: 20px;
      font-size: 1.3rem;
@@ -44,33 +38,27 @@ ol, ul {
           cursor: pointer;
      }
 }
-
 .logo a {
      font-family: $baseFont;
      color: black;
 }
-
 h1 {
      font-family: $logoFont;
 }
-
 .slideContent h1 {
      font-size: 4rem;
      padding-top: 150px;
      text-transform: uppercase;
      
 }
-
 h3 {
      text-transform: uppercase;
      margin: 20px 0;
      font-family: $baseFont;
 }
-
 h4 {
      text-transform: uppercase;
      font-family: $baseFont;
 }
-
 // use this for slideshow: https://codepen.io/daysahead/pen/mJqBge
 
