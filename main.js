@@ -15,16 +15,16 @@ window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).
         type: "textarea",
         label: "Message:",
         name: "message",
-        placeholder: "What are your thoughts / queries?",
+        placeholder: "What are your queries?",
       },
       { type: "submit" }      
     ],
     styles: {
       title: {
-        backgroundColor: "gray"
+        backgroundColor: "#5bf0b2"
       },
       button: {
-        backgroundColor: "gray"
+        backgroundColor: "#5bf0b2"
       }
     }
   });

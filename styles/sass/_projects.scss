@@ -53,3 +53,8 @@
      color: $blueGreen;
      cursor: pointer;
 }
+
+.links {
+     display: flex;
+     flex-direction: column;
+}

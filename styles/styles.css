@@ -722,7 +722,7 @@ h4 {
 }
 
 .skills h3 {
-  text-align: left;
+  text-align: center;
   font-size: 3rem;
   text-shadow: 2px 2px 1px #e7feff;
 }
@@ -856,6 +856,16 @@ h4 {
 .bop:hover, .bop:focus {
   color: #5bf0b2;
   cursor: pointer;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .contactForm {
