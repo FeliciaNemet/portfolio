@@ -722,7 +722,7 @@ h4 {
 }
 
 .skills h3 {
-  text-align: center;
+  text-align: left;
   font-size: 3rem;
   text-shadow: 2px 2px 1px #e7feff;
 }
@@ -943,7 +943,7 @@ h4 {
   padding-top: 20px;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1800px) {
   .projects .wrap {
     width: 100%;
   }
