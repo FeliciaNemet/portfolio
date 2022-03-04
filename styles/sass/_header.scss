@@ -36,6 +36,17 @@
      }
      }
 }
+
+.nav ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+}
+
+.nav li a {
+     padding: 0px 10px;
+     margin-top: 10px;
+}
 // HEADER SLIDES ****************
 .slideshow {
      overflow: hidden;

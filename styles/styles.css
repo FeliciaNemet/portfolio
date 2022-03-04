@@ -608,6 +608,24 @@ h4 {
   }
 }
 
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nav li a {
+  padding: 0px 10px;
+  margin-top: 10px;
+}
+
 .slideshow {
   overflow: hidden;
   height: 100vh;
