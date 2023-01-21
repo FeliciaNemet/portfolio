@@ -9,20 +9,20 @@
      left: 20px;
      position: absolute;
      display: inline-block;
-     text-shadow: 2px 2px 1px $blah;
+     text-shadow: 2px 2px 1px black;
      p {
           font-size: 2rem;
-          text-shadow: 2px 2px 1px $blah;
+          text-shadow: 2px 2px 1px black;
           color: $blueGreen;
           font-family: $logoFont;
      }
      i {
-          top: 200px;
-          left: 20%;
+          top: 450px;
+          left: 30%;
           position: absolute;
           animation: bounce 3s infinite;
           color: black;
-          text-shadow: 2px 2px 1px $blah;
+          text-shadow: 2px 2px 1px $blueGreen;
      }
      @keyframes bounce {
      0%, 20%, 50%, 80%, 100% {

@@ -87,8 +87,15 @@
      }
 }
 @media(max-width: 480px) {
+     .logo {
+          i{
+               top: 450px;
+          left: 41%;
+          }
+     }
+
      .me {
-          height: 300px;
+          height: 400px;
           width: 300px;
      }
 

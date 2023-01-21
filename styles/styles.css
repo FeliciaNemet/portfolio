@@ -562,22 +562,22 @@ h4 {
   left: 20px;
   position: absolute;
   display: inline-block;
-  text-shadow: 2px 2px 1px #383838;
+  text-shadow: 2px 2px 1px black;
 }
 .logo p {
   font-size: 2rem;
-  text-shadow: 2px 2px 1px #383838;
+  text-shadow: 2px 2px 1px black;
   color: #5bf0b2;
   font-family: "Play", sans-serif;
 }
 .logo i {
-  top: 200px;
-  left: 20%;
+  top: 450px;
+  left: 30%;
   position: absolute;
   -webkit-animation: bounce 3s infinite;
           animation: bounce 3s infinite;
   color: black;
-  text-shadow: 2px 2px 1px #383838;
+  text-shadow: 2px 2px 1px #5bf0b2;
 }
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -1079,8 +1079,12 @@ h4 {
   }
 }
 @media (max-width: 480px) {
+  .logo i {
+    top: 450px;
+    left: 41%;
+  }
   .me {
-    height: 300px;
+    height: 400px;
     width: 300px;
   }
   .rhombusBox {
