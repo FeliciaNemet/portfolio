@@ -13,11 +13,11 @@
      p {
           font-size: 2rem;
           text-shadow: 2px 2px 1px $blah;
-          color: black;
+          color: $blueGreen;
           font-family: $logoFont;
      }
      i {
-          top: 400px;
+          top: 200px;
           left: 20%;
           position: absolute;
           animation: bounce 3s infinite;
@@ -65,19 +65,19 @@
      width: 100vw;
 }
 .slide:nth-child(1) {
-     background-image: url('../assets/kenrick-mills-MF9Wy1NA55I-unsplash(2).jpg');
+     background-image: url('../assets/pp.png');
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
 }
 .slide:nth-child(2) {
-     background-image: url('../assets/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg');
+     background-image: url('../assets/matrix.png');
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
 }
 .slide:nth-child(3) {
-     background-image: url('../assets/kenrick-mills-MF9Wy1NA55I-unsplash(2).jpg');
+     background-image: url('../assets/pp.png');
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;

@@ -323,7 +323,7 @@ ol, ul {
 
 .logo a {
   font-family: "El Messiri", sans-serif;
-  color: black;
+  color: #e7feff;
 }
 
 h1 {
@@ -369,7 +369,7 @@ h4 {
 
 .me {
   width: 500px;
-  height: 500px;
+  height: 600px;
   border: 10px solid #5bf0b2;
   margin-top: 20px;
 }
@@ -567,11 +567,11 @@ h4 {
 .logo p {
   font-size: 2rem;
   text-shadow: 2px 2px 1px #383838;
-  color: black;
+  color: #5bf0b2;
   font-family: "Play", sans-serif;
 }
 .logo i {
-  top: 400px;
+  top: 200px;
   left: 20%;
   position: absolute;
   -webkit-animation: bounce 3s infinite;
@@ -647,21 +647,21 @@ h4 {
 }
 
 .slide:nth-child(1) {
-  background-image: url("../assets/kenrick-mills-MF9Wy1NA55I-unsplash(2).jpg");
+  background-image: url("../assets/pp.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .slide:nth-child(2) {
-  background-image: url("../assets/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg");
+  background-image: url("../assets/matrix.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .slide:nth-child(3) {
-  background-image: url("../assets/kenrick-mills-MF9Wy1NA55I-unsplash(2).jpg");
+  background-image: url("../assets/pp.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -965,7 +965,6 @@ h4 {
   .projects .wrap {
     width: 100%;
   }
-
   .techstack {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -977,7 +976,6 @@ h4 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-
   .box1, .box2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -988,7 +986,6 @@ h4 {
             flex-direction: row;
     margin: 0 auto;
   }
-
   .rhombusBox {
     margin: 50px 100px;
   }
@@ -997,7 +994,6 @@ h4 {
   .projects .wrap {
     width: 100%;
   }
-
   .techstack {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1007,7 +1003,6 @@ h4 {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-
   .box1, .box2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1021,7 +1016,6 @@ h4 {
             align-items: center;
     margin: 0 auto;
   }
-
   .rhombusBox {
     width: 100%;
   }
@@ -1036,7 +1030,6 @@ h4 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .techstack {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1046,7 +1039,6 @@ h4 {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-
   .box1, .box2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1056,16 +1048,13 @@ h4 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .rhombusBox {
     width: 100%;
     margin: 50px 100px;
   }
-
   .projects .wrap {
     width: 100%;
   }
-
   .cohort h3 {
     padding-top: 50px;
   }
@@ -1076,18 +1065,15 @@ h4 {
     width: 400px;
     margin-top: 50px;
   }
-
   .techstack {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .rhombusBox {
     width: 100%;
   }
-
   .projects .wrap {
     width: 100%;
   }
@@ -1097,15 +1083,12 @@ h4 {
     height: 300px;
     width: 300px;
   }
-
   .rhombusBox {
     width: 100%;
   }
-
   .projects .wrap {
     width: 100%;
   }
-
   .contactForm {
     width: 100%;
   }
