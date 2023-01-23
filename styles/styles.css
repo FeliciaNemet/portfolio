@@ -298,7 +298,7 @@ a, link, a:active, a:hover, a:focus {
   text-decoration: none;
   outline: none;
   color: #5bf0b2;
-  font-family: "El Messiri", sans-serif;
+  font-family: "Aboreto", cursive;
 }
 
 ol, ul {
@@ -310,7 +310,6 @@ ol, ul {
 .logo {
   margin-left: 20px;
   font-size: 1.3rem;
-  text-transform: uppercase;
   letter-spacing: 1.5px;
   z-index: 90;
   position: relative;
@@ -322,16 +321,16 @@ ol, ul {
 }
 
 .logo a {
-  font-family: "El Messiri", sans-serif;
+  font-family: "Explora", cursive;
   color: #e7feff;
 }
 
 h1 {
-  font-family: "Play", sans-serif;
+  font-family: "Aboreto", cursive;
 }
 
 .slideContent h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   padding-top: 150px;
   text-transform: uppercase;
 }
@@ -339,12 +338,21 @@ h1 {
 h3 {
   text-transform: uppercase;
   margin: 20px 0;
-  font-family: "El Messiri", sans-serif;
+  font-family: "Explora", cursive;
 }
 
 h4 {
-  text-transform: uppercase;
-  font-family: "El Messiri", sans-serif;
+  font-family: "Explora", cursive;
+}
+
+p {
+  font-weight: lighter;
+}
+
+.wrapper {
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .about {
@@ -353,23 +361,29 @@ h4 {
 }
 .about h2 {
   text-transform: uppercase;
-  font-family: "El Messiri", sans-serif;
+  font-family: "Explora", cursive;
   font-size: 3rem;
   text-shadow: 2px 2px 1px #e7feff;
   text-align: left;
 }
+.about h3 {
+  font-family: "Explora", cursive;
+  font-size: 2.2rem;
+  text-shadow: 2px 2px 1px #e7feff;
+  text-transform: none;
+}
 .about p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin: 40px 0;
-  font-family: "El Messiri", sans-serif;
+  font-family: "Explora", cursive;
   letter-spacing: 1.5px;
   line-height: 1.5;
   text-align: center;
 }
 
 .me {
-  width: 500px;
-  height: 600px;
+  width: 400px;
+  height: 500px;
   border: 10px solid #5bf0b2;
   margin-top: 20px;
 }
@@ -554,8 +568,7 @@ h4 {
 .logo {
   font-weight: 700;
   line-height: normal;
-  font-size: 3rem;
-  text-transform: uppercase;
+  font-size: 4rem;
   letter-spacing: 1.5px;
   z-index: 100;
   top: 90px;
@@ -568,7 +581,7 @@ h4 {
   font-size: 2rem;
   text-shadow: 2px 2px 1px black;
   color: #5bf0b2;
-  font-family: "Play", sans-serif;
+  font-family: "Aboreto", cursive;
 }
 .logo i {
   top: 450px;
@@ -736,7 +749,7 @@ h4 {
 }
 
 .skills {
-  padding: 50px 0;
+  padding-top: 50px;
 }
 
 .skills h3 {
@@ -755,7 +768,7 @@ h4 {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .rhombusBox {
@@ -770,23 +783,22 @@ h4 {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .rhombusBox h4 {
-  margin-top: 40px;
+  margin-top: 20px;
+  font-size: 1.4rem;
 }
 
 .rhom {
-  padding: 40px;
+  padding: 38px;
   -webkit-transform: rotateZ(46deg);
           transform: rotateZ(46deg);
-  height: 50px;
-  width: 50px;
   position: relative;
   border: 3px solid #5bf0b2;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
 
 .rhom i {
@@ -796,7 +808,7 @@ h4 {
   margin-right: 15px;
   display: inline-block;
   position: absolute;
-  font-size: 40px;
+  font-size: 35px;
   top: 20px;
   left: 5px;
 }
@@ -816,7 +828,7 @@ h4 {
 .project h2 {
   font-size: 3rem;
   text-shadow: 2px 2px 1px #e7feff;
-  font-family: "El Messiri", sans-serif;
+  font-family: "Explora", cursive;
   text-align: left;
   text-transform: uppercase;
   padding-bottom: 100px;
@@ -834,27 +846,28 @@ h4 {
       -ms-flex-align: center;
           align-items: center;
   width: 20%;
-  margin: 30px;
+  margin: 25px;
   text-align: center;
 }
 .wrap h4 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   text-align: center;
   margin: 20px 0;
-  font-family: "El Messiri", sans-serif;
+  font-family: "Explora", cursive;
 }
 .wrap p {
-  font-family: "El Messiri", sans-serif;
+  font-family: "Explora", cursive;
   letter-spacing: 1.5px;
   line-height: 1.5;
   text-align: center;
+  font-size: 2rem;
 }
 
 .project .rhom {
   -webkit-transform: rotateZ(46deg);
           transform: rotateZ(46deg);
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   position: relative;
   margin: 50px 0;
 }
@@ -885,6 +898,9 @@ h4 {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+.links a {
+  font-family: "Explora", cursive;
+}
 
 .contactForm {
   margin: 0 auto;
@@ -895,7 +911,7 @@ h4 {
   margin: 20px;
   background-color: #5bf0b2;
   color: #333;
-  font-family: "El Messiri", sans-serif;
+  font-family: "Explora", cursive;
   -webkit-box-shadow: 2px 2px 1px #e7feff;
           box-shadow: 2px 2px 1px #e7feff;
   cursor: pointer;
@@ -933,7 +949,7 @@ h4 {
 }
 .groupForm label {
   text-transform: uppercase;
-  font-family: "El Messiri", sans-serif;
+  font-family: "Explora", cursive;
   color: #5bf0b2;
   letter-spacing: 1.5px;
   padding: 10px 0;
@@ -1061,8 +1077,8 @@ h4 {
 }
 @media (max-width: 767px) {
   .me {
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 300px;
     margin-top: 50px;
   }
   .techstack {
@@ -1084,8 +1100,8 @@ h4 {
     left: 41%;
   }
   .me {
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 250px;
   }
   .rhombusBox {
     width: 100%;
@@ -1101,10 +1117,4 @@ body {
   color: #5bf0b2;
   background-color: #383838;
   overflow-x: hidden;
-}
-
-.wrapper {
-  max-width: 1400px;
-  width: 90%;
-  margin: 0 auto;
 }

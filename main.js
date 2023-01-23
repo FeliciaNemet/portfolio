@@ -2,20 +2,20 @@ window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).
   /* customize formbutton below*/     
   formbutton("create", {
     action: "https://formspree.io/f/mwkylqwd",
-    title: "May I help?",
+    title: "Get an Estimate!",
     fields: [
       { 
         type: "email", 
         label: "Email:", 
         name: "email",
         required: true,
-        placeholder: "your@email.com"
+        placeholder: "Email Address"
       },
       {
         type: "textarea",
         label: "Message:",
         name: "message",
-        placeholder: "What are your queries?",
+        placeholder: "I need a quote",
       },
       { type: "submit" }      
     ],

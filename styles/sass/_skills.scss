@@ -1,6 +1,6 @@
 // SKILLS ******************
 .skills {
-     padding: 50px 0;
+     padding-top: 50px;
 }
 .skills h3 {
      text-align: left;
@@ -11,29 +11,29 @@
      display: flex;
      flex-direction: row; 
      flex-wrap: wrap;
-     margin: 0 auto;
+     margin: 50px auto;
 }
+
 .rhombusBox {
      display: flex;
      flex-direction: column;
      align-items: center;
      text-align: center;
-     margin: 50px auto;
+     margin: 30px auto;
      
 }
 .rhombusBox h4 {
-     margin-top: 40px;
+     margin-top: 20px;
+     font-size: 1.4rem;
 }
 
 .rhom {
-     padding: 40px;
+     padding: 38px;
      transform: rotateZ(46deg);
-     height: 50px;
-     width: 50px;
      position: relative;
      border: 3px solid $blueGreen;
-     height: 50px;
-     width: 50px;
+     height: 40px;
+     width: 40px;
      
 }
 .rhom i {
@@ -42,7 +42,7 @@
      margin-right: 15px;
      display: inline-block;
      position: absolute;
-     font-size: 40px;
+     font-size: 35px;
      top: 20px;
      left: 5px;
 }

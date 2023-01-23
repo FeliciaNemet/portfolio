@@ -1,8 +1,7 @@
 .logo {
      font-weight: 700;
      line-height: normal;
-     font-size: 3rem;
-     text-transform: uppercase;
+     font-size: 4rem;
      letter-spacing: 1.5px;
      z-index: 100;
      top: 90px;
@@ -15,6 +14,7 @@
           text-shadow: 2px 2px 1px black;
           color: $blueGreen;
           font-family: $logoFont;
+          // text-transform: uppercase;
      }
      i {
           top: 450px;

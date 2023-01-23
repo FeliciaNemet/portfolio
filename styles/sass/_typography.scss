@@ -1,8 +1,10 @@
 $blueGreen: #5bf0b2;
 $bubble: #e7feff;
 $blah: #383838;
-$logoFont: 'Play', sans-serif;
-$baseFont: 'El Messiri', sans-serif;
+$logoFont: 'Aboreto', cursive;
+$baseFont: 'Explora', cursive;
+
+
 
 html {
      font-size: 125%;
@@ -18,7 +20,7 @@ a, link, a:active, a:hover, a:focus {
      text-decoration: none;
      outline: none;
      color: $blueGreen;
-     font-family: $baseFont;
+     font-family: $logoFont;
 }
 ol, ul {
      margin-top: 0;
@@ -28,7 +30,6 @@ ol, ul {
 .logo {
      margin-left: 20px;
      font-size: 1.3rem;
-     text-transform: uppercase;
      letter-spacing: 1.5px;
      z-index: 90;
      position: relative;
@@ -46,7 +47,7 @@ h1 {
      font-family: $logoFont;
 }
 .slideContent h1 {
-     font-size: 4rem;
+     font-size: 3rem;
      padding-top: 150px;
      text-transform: uppercase;
      
@@ -57,8 +58,16 @@ h3 {
      font-family: $baseFont;
 }
 h4 {
-     text-transform: uppercase;
      font-family: $baseFont;
+}
+
+p {
+     font-weight: lighter;
 }
 // use this for slideshow: https://codepen.io/daysahead/pen/mJqBge
 
+.wrapper {
+     max-width: 1400px;
+     width: 90%;
+     margin: 0 auto;
+}

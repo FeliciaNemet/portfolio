@@ -9,8 +9,16 @@
           text-shadow: 2px 2px 1px $bubble;
           text-align: left;
      }
+
+     h3 {
+          font-family: $baseFont;
+          font-size: 2.2rem;
+          text-shadow: 2px 2px 1px $bubble;
+          text-transform: none;
+
+     }
      p {
-          font-size: 1.5rem;
+          font-size: 1.8rem;
           margin: 40px 0;
           font-family: $baseFont;
           letter-spacing: 1.5px;
@@ -19,8 +27,8 @@
      }
 }
 .me {
-     width: 500px;
-     height: 600px;
+     width: 400px;
+     height: 500px;
      border: 10px solid $blueGreen;
      margin-top: 20px;
 }
