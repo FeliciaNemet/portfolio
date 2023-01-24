@@ -56,6 +56,21 @@
           
      }
 }
+.frameZ {
+     border: 5px solid $blueGreen;
+     height: 300px;
+     width: 350px;
+     padding: 10px;
+     img {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          object-fit: contain;
+          height: 275px;
+          max-width: 100%;
+          
+     }
+}
 .rhom i:hover, .rhom i:focus {
      color: $blueGreen;
 }
