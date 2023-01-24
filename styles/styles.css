@@ -285,6 +285,12 @@ html {
   font-size: 125%;
 }
 
+body {
+  margin: 0;
+  height: 100vh;
+  cursor: url(), auto;
+}
+
 a {
   text-decoration: none;
 }
@@ -294,7 +300,6 @@ a {
 }
 
 a, link, a:active, a:hover, a:focus {
-  cursor: pointer;
   text-decoration: none;
   outline: none;
   color: #5bf0b2;
@@ -317,7 +322,6 @@ ol, ul {
 }
 .logo a {
   background-color: transparent;
-  cursor: pointer;
 }
 
 .logo a {
@@ -353,6 +357,36 @@ p {
   max-width: 1400px;
   width: 90%;
   margin: 0 auto;
+}
+
+.rhombus {
+  -webkit-transform: rotateZ(46deg);
+          transform: rotateZ(46deg);
+  height: 70px;
+  width: 70px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.rhombus i {
+  position: absolute;
+  -webkit-transform: rotateZ(-46deg);
+          transform: rotateZ(-46deg);
+  font-size: 40px;
+  top: 15px;
+  left: 15px;
+  color: #e7feff;
+}
+
+.rhombus i:hover, .rhombus i:focus, .rhombus a {
+  color: #5bf0b2;
+}
+
+.cube {
+  width: 300px;
+  height: 300px;
+  border: 5px solid #5bf0b2;
+  margin: 50px;
 }
 
 .about {
@@ -439,130 +473,6 @@ p {
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
   line-height: 40px;
-}
-
-.slideContent {
-  background-image: url("../assets/ash-edmonds-XZ0xN0hmpi4-unsplash(2).jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.slideContent h4 {
-  text-shadow: 2px 2px 1px #383838;
-  margin-top: 30px;
-  font-size: 2rem;
-}
-
-.cohort h3 {
-  text-align: left;
-  font-size: 3rem;
-  text-shadow: 2px 2px 1px #e7feff;
-  padding-bottom: 100px;
-}
-
-.cohortSlideWrapper {
-  width: 400vw;
-  -webkit-animation: cohortSlide 22s ease infinite;
-          animation: cohortSlide 22s ease infinite;
-  height: 100vh;
-}
-
-.cohortSlide {
-  float: left;
-  height: 100vh;
-  width: 100vw;
-}
-
-@-webkit-keyframes cohortSlide {
-  20% {
-    margin-left: 0px;
-  }
-  30% {
-    margin-left: -100vw;
-  }
-  50% {
-    margin-left: -100vw;
-  }
-  60% {
-    margin-left: -200vw;
-  }
-  70% {
-    margin-left: -200vw;
-  }
-  80% {
-    margin-left: -300vw;
-  }
-  90% {
-    margin-left: -300vw;
-  }
-}
-
-@keyframes cohortSlide {
-  20% {
-    margin-left: 0px;
-  }
-  30% {
-    margin-left: -100vw;
-  }
-  50% {
-    margin-left: -100vw;
-  }
-  60% {
-    margin-left: -200vw;
-  }
-  70% {
-    margin-left: -200vw;
-  }
-  80% {
-    margin-left: -300vw;
-  }
-  90% {
-    margin-left: -300vw;
-  }
-}
-.rhombus {
-  -webkit-transform: rotateZ(46deg);
-          transform: rotateZ(46deg);
-  height: 70px;
-  width: 70px;
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.rhombus i {
-  position: absolute;
-  -webkit-transform: rotateZ(-46deg);
-          transform: rotateZ(-46deg);
-  font-size: 40px;
-  top: 15px;
-  left: 15px;
-  color: #e7feff;
-}
-
-.rhombus i:hover, .rhombus i:focus, .rhombus a {
-  color: #5bf0b2;
-  cursor: pointer;
-}
-
-.cube {
-  width: 300px;
-  height: 300px;
-  border: 5px solid #5bf0b2;
-  margin: 50px;
 }
 
 .logo {
@@ -874,7 +784,6 @@ p {
 
 .rhom i:hover, .rhom i:focus {
   color: #5bf0b2;
-  cursor: pointer;
 }
 
 .bop {
@@ -886,7 +795,6 @@ p {
 
 .bop:hover, .bop:focus {
   color: #5bf0b2;
-  cursor: pointer;
 }
 
 .links {
@@ -914,7 +822,6 @@ p {
   font-family: "Explora", cursive;
   -webkit-box-shadow: 2px 2px 1px #e7feff;
           box-shadow: 2px 2px 1px #e7feff;
-  cursor: pointer;
   padding: 0.3em 0.2em;
   font-size: 1.1rem;
 }
@@ -923,7 +830,6 @@ p {
   background-color: #e7feff;
   -webkit-box-shadow: 2px 2px 1px black;
           box-shadow: 2px 2px 1px black;
-  cursor: pointer;
 }
 
 .form {
@@ -1096,7 +1002,7 @@ p {
 }
 @media (max-width: 480px) {
   .logo i {
-    top: 450px;
+    top: 400px;
     left: 41%;
   }
   .me {

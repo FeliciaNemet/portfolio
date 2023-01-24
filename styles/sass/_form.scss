@@ -9,7 +9,6 @@
           color: #333;
           font-family: $baseFont;
           box-shadow: 2px 2px 1px $bubble;
-          cursor: pointer;
           padding: .3em .2em;
           font-size: 1.1rem;
      }
@@ -17,7 +16,6 @@
           color: $blueGreen;
           background-color: $bubble;
           box-shadow: 2px 2px 1px black;
-          cursor: pointer;
      }
 }
 .form {
