@@ -542,11 +542,12 @@ p {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin: 10px 20px;
 }
 
 .nav li a {
-  padding: 0px 2.5px;
-  margin: 5px;
+  padding: 5px;
+  font-size: 0.7rem;
 }
 
 .slideshow {
@@ -1074,6 +1075,12 @@ p {
     width: 100%;
   }
 }
+.freelancing h3 {
+  text-align: left;
+  font-size: 3rem;
+  text-shadow: 2px 2px 1px #dffeff;
+}
+
 body {
   color: #00c5ce;
   background-color: #9bfbff;
