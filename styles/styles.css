@@ -302,7 +302,7 @@ a {
 a, link, a:active, a:hover, a:focus {
   text-decoration: none;
   outline: none;
-  color: #00c5ce;
+  color: #000102;
   font-family: "Aboreto", cursive;
 }
 
@@ -326,7 +326,7 @@ ol, ul {
 
 .logo a {
   font-family: "Explora", cursive;
-  color: #dffeff;
+  color: #00c5ce;
 }
 
 h1 {
@@ -375,17 +375,17 @@ p {
   font-size: 40px;
   top: 15px;
   left: 15px;
-  color: #dffeff;
+  color: #00c5ce;
 }
 
 .rhombus i:hover, .rhombus i:focus, .rhombus a {
-  color: #00c5ce;
+  color: #000102;
 }
 
 .cube {
   width: 300px;
   height: 300px;
-  border: 5px solid #00c5ce;
+  border: 5px solid #000102;
   margin: 50px;
 }
 
@@ -397,13 +397,13 @@ p {
   text-transform: uppercase;
   font-family: "Explora", cursive;
   font-size: 3rem;
-  text-shadow: 2px 2px 1px #dffeff;
+  text-shadow: 2px 2px 1px #00c5ce;
   text-align: left;
 }
 .about h3 {
   font-family: "Explora", cursive;
   font-size: 2.2rem;
-  text-shadow: 2px 2px 1px #dffeff;
+  text-shadow: 2px 2px 1px #00c5ce;
   text-transform: none;
 }
 .about p {
@@ -418,7 +418,7 @@ p {
 .me {
   width: 400px;
   height: 500px;
-  border: 10px solid #00c5ce;
+  border: 10px solid #000102;
   margin-top: 20px;
 }
 
@@ -434,7 +434,7 @@ p {
 }
 
 .socIcons a {
-  border: 3px solid #00c5ce;
+  border: 3px solid #000102;
   min-height: 30px;
   min-width: 30px;
   margin-left: 15px;
@@ -457,7 +457,7 @@ p {
 
 .link {
   font-weight: 700;
-  color: #dffeff;
+  color: #00c5ce;
   position: relative;
   text-transform: uppercase;
   display: inline-block;
@@ -490,7 +490,7 @@ p {
 .logo p {
   font-size: 2rem;
   text-shadow: 2px 2px 1px black;
-  color: #00c5ce;
+  color: #000102;
   font-family: "Aboreto", cursive;
 }
 .logo i {
@@ -500,7 +500,7 @@ p {
   -webkit-animation: bounce 3s infinite;
           animation: bounce 3s infinite;
   color: black;
-  text-shadow: 2px 2px 1px #00c5ce;
+  text-shadow: 2px 2px 1px #000102;
 }
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -649,14 +649,14 @@ p {
 }
 
 .footer .copyright p {
-  color: #dffeff;
+  color: #00c5ce;
   font-weight: 200;
   letter-spacing: 1px;
   margin: 30px 0;
 }
 
 .copyright a {
-  color: #00c5ce;
+  color: #000102;
 }
 
 .skills {
@@ -666,7 +666,7 @@ p {
 .skills h3 {
   text-align: left;
   font-size: 3rem;
-  text-shadow: 2px 2px 1px #dffeff;
+  text-shadow: 2px 2px 1px #00c5ce;
 }
 
 .techStack {
@@ -707,7 +707,7 @@ p {
   -webkit-transform: rotateZ(46deg);
           transform: rotateZ(46deg);
   position: relative;
-  border: 3px solid #00c5ce;
+  border: 3px solid #000102;
   height: 40px;
   width: 40px;
 }
@@ -742,7 +742,7 @@ p {
   text-align: left;
   text-transform: uppercase;
   font-size: 3rem;
-  text-shadow: 2px 2px 1px #dffeff;
+  text-shadow: 2px 2px 1px #00c5ce;
 }
 
 .wrap {
@@ -784,7 +784,7 @@ p {
 }
 
 .frame {
-  border: 5px solid #00c5ce;
+  border: 5px solid #000102;
   height: 430px;
   width: 300px;
   padding: 10px;
@@ -807,7 +807,7 @@ p {
 }
 
 .frameZ {
-  border: 5px solid #00c5ce;
+  border: 5px solid #000102;
   height: 300px;
   width: 350px;
   padding: 10px;
@@ -830,18 +830,18 @@ p {
 }
 
 .rhom i:hover, .rhom i:focus {
-  color: #00c5ce;
+  color: #000102;
 }
 
 .bop {
-  color: #dffeff;
+  color: #00c5ce;
   position: absolute;
   bottom: 80px;
   right: 80px;
 }
 
 .bop:hover, .bop:focus {
-  color: #00c5ce;
+  color: #000102;
 }
 
 .links {
@@ -872,17 +872,17 @@ p {
 }
 .contactForm button {
   margin: 20px;
-  background-color: #00c5ce;
+  background-color: #000102;
   color: #333;
   font-family: "Explora", cursive;
-  -webkit-box-shadow: 2px 2px 1px #dffeff;
-          box-shadow: 2px 2px 1px #dffeff;
+  -webkit-box-shadow: 2px 2px 1px #00c5ce;
+          box-shadow: 2px 2px 1px #00c5ce;
   padding: 0.3em 0.2em;
   font-size: 1.1rem;
 }
 .contactForm button:hover {
-  color: #00c5ce;
-  background-color: #dffeff;
+  color: #000102;
+  background-color: #00c5ce;
   -webkit-box-shadow: 2px 2px 1px black;
           box-shadow: 2px 2px 1px black;
 }
@@ -895,7 +895,7 @@ p {
 .form h3 {
   text-align: left;
   font-size: 3rem;
-  text-shadow: 2px 2px 1px #dffeff;
+  text-shadow: 2px 2px 1px #00c5ce;
 }
 
 .groupForm {
@@ -911,28 +911,28 @@ p {
 .groupForm label {
   text-transform: uppercase;
   font-family: "Explora", cursive;
-  color: #00c5ce;
+  color: #000102;
   letter-spacing: 1.5px;
   padding: 10px 0;
   text-align: left;
 }
 .groupForm input {
-  border: 2px solid #00c5ce;
+  border: 2px solid #000102;
   background-color: transparent;
-  color: #00c5ce;
+  color: #000102;
   text-align: center;
   padding: 1em 0.5em;
-  -webkit-box-shadow: 3px 3px 1px #dffeff;
-          box-shadow: 3px 3px 1px #dffeff;
+  -webkit-box-shadow: 3px 3px 1px #00c5ce;
+          box-shadow: 3px 3px 1px #00c5ce;
   font-size: 1.1rem;
-  caret-color: #00c5ce;
+  caret-color: #000102;
 }
 .groupForm .message {
-  border: 2px solid #00c5ce;
+  border: 2px solid #000102;
   background-color: transparent;
-  color: #00c5ce;
-  -webkit-box-shadow: 3px 3px 1px #dffeff;
-          box-shadow: 3px 3px 1px #dffeff;
+  color: #000102;
+  -webkit-box-shadow: 3px 3px 1px #00c5ce;
+          box-shadow: 3px 3px 1px #00c5ce;
   resize: none;
   margin-bottom: 40px;
   text-align: center;
@@ -1078,11 +1078,11 @@ p {
 .freelancing h3 {
   text-align: left;
   font-size: 3rem;
-  text-shadow: 2px 2px 1px #dffeff;
+  text-shadow: 2px 2px 1px #00c5ce;
 }
 
 body {
-  color: #00c5ce;
+  color: #000102;
   background-color: #9bfbff;
   overflow-x: hidden;
 }
