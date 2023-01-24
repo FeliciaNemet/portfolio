@@ -10,7 +10,7 @@
 
 body {
      color: $blueGreen;
-     background-color: $blah;
+     background-color: darken($color: #e7feff, $amount: 15);
      overflow-x: hidden;
 }
 

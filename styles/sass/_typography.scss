@@ -1,6 +1,5 @@
-$blueGreen: #5bf0b2;
-$bubble: #e7feff;
-$blah: #383838;
+$blueGreen: darken($color: #e7feff, $amount: 55);
+$bubble: darken($color: #e7feff, $amount: 1.5);
 $logoFont: 'Aboreto', cursive;
 $baseFont: 'Explora', cursive;
 
@@ -13,8 +12,12 @@ html {
 body {
      margin: 0;
      height: 100vh;
-     cursor: url(), auto;
+     cursor: url('../assets/dragon.png'), text;
 }
+
+// .cursor {
+
+// }
 
 a {
      text-decoration: none;
