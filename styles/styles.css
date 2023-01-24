@@ -769,8 +769,8 @@ p {
   font-family: "Explora", cursive;
   letter-spacing: 1.5px;
   line-height: 1.5;
-  text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-top: 20px;
 }
 
 .project .rhom {
@@ -831,6 +831,14 @@ p {
 }
 .links a {
   font-family: "Explora", cursive;
+}
+
+.a {
+  text-align: end;
+}
+
+.b {
+  text-align: start;
 }
 
 .contactForm {
