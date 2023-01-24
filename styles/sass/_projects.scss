@@ -40,6 +40,22 @@
      position: relative;
      margin: 50px 0;
 }
+
+.frame {
+     border: 5px solid $blueGreen;
+     height: 430px;
+     width: 300px;
+     padding: 10px;
+     img {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          object-fit: contain;
+          height: 400px;
+          max-width: 100%;
+          
+     }
+}
 .rhom i:hover, .rhom i:focus {
      color: $blueGreen;
 }
