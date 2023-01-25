@@ -489,7 +489,7 @@ p {
 }
 .logo p {
   font-size: 2rem;
-  text-shadow: 2px 2px 1px black;
+  text-shadow: 2px 2px 1px #e7feff;
   color: #000102;
   font-family: "Aboreto", cursive;
 }
@@ -499,7 +499,7 @@ p {
   position: absolute;
   -webkit-animation: bounce 3s infinite;
           animation: bounce 3s infinite;
-  color: black;
+  color: #e7feff;
   text-shadow: 2px 2px 1px #000102;
 }
 @-webkit-keyframes bounce {
