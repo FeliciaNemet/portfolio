@@ -93,6 +93,36 @@
           left: 41%;
           }
      }
+     .logo {
+     font-weight: 400;
+     line-height: normal;
+     font-size: 3rem;
+     letter-spacing: 1px;
+     z-index: 100;
+     top: 80px;
+     position: absolute;
+     display: inline-block;
+     text-shadow: 2px 2px 1px black;
+     p {
+          font-size: 2rem;
+          text-shadow: 2px 2px 1px #e7feff;
+          color: $blueGreen;
+          font-family: $logoFont;
+          // text-transform: uppercase;
+     }
+     
+     @keyframes bounce {
+     0%, 20%, 50%, 80%, 100% {
+     transform: translateY(0);
+     }
+     40% {
+     transform: translateY(-30px);
+     }
+     60% {
+     transform: translateY(-15px);
+     }
+     }
+}
 
      .me {
           height: 300px;
