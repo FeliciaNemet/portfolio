@@ -6,14 +6,14 @@
      button {
           margin: 20px;
           background-color: $blueGreen;
-          color: #333;
+          color: whitesmoke;
           font-family: $baseFont;
           box-shadow: 2px 2px 1px $bubble;
           padding: .3em .2em;
           font-size: 1.1rem;
      }
      button:hover {
-          color: $blueGreen;
+          color: whitesmoke;
           background-color: $bubble;
           box-shadow: 2px 2px 1px black;
      }
