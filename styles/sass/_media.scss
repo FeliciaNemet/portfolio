@@ -110,4 +110,16 @@
      .contactForm {
           width: 100%;
      }
+     .footer .copyright {
+     position: absolute;
+     z-index: 10;
+     width: 80%;
+     text-align: center;
+     }
+     .footer .copyright p {
+     color: $bubble;
+     font-weight: 200;
+     letter-spacing: 0.5px;
+     margin: 50px 0;
+     }
 }
