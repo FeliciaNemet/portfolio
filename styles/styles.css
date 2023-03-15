@@ -1165,6 +1165,9 @@ p {
     letter-spacing: 0.5px;
     margin: 50px 0;
   }
+  .skills {
+    padding-top: 500px;
+  }
 }
 
 .freelancing {
