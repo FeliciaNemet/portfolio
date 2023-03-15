@@ -13,7 +13,6 @@
           text-shadow: 2px 2px 1px #e7feff;
           color: $blueGreen;
           font-family: $logoFont;
-          // text-transform: uppercase;
      }
      i {
           top: 450px;
@@ -35,14 +34,12 @@
      }
      }
 }
-
 .nav ul {
      display: flex;
      flex-direction: row;
      justify-content: flex-end;
      margin: 10px 20px;
 }
-
 .nav li a {
      padding: 5px;
      font-size: 0.7rem;
