@@ -286,7 +286,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   height: 100vh;
   cursor: url("../assets/dragon.png"), text;
 }
@@ -432,7 +432,17 @@ p {
 
 .socIcons, .bottomIcon {
   position: absolute;
-  width: 80%;
+  width: 90%;
+  padding: 50px;
+  text-align: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.socIcons {
+  font-size: 40px;
+  position: absolute;
+  width: 90%;
   padding: 50px;
   text-align: center;
 }
@@ -689,6 +699,7 @@ p {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 50px auto;
+  position: relative;
 }
 
 .rhombusBox {
@@ -731,6 +742,15 @@ p {
   font-size: 35px;
   top: 20px;
   left: 5px;
+}
+
+.box1 {
+  text-align: right;
+  font-size: 20px;
+  top: 135px;
+  left: -50px;
+  position: absolute;
+  width: 90%;
 }
 
 .projects {
@@ -966,12 +986,11 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 40vw;
   }
   .box1, .box2 {
     display: -webkit-box;
@@ -981,7 +1000,7 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin: 0 auto;
+    margin: 50px auto;
   }
   .rhombusBox {
     margin: 50px 100px;
@@ -990,7 +1009,7 @@ p {
 
 @media (max-width: 1270px) {
   .projects .wrap {
-    width: 100%;
+    width: 90%;
   }
   .techstack {
     display: -webkit-box;
@@ -1012,10 +1031,10 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 0 auto;
+    margin: 40px auto;
   }
   .rhombusBox {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -1048,11 +1067,11 @@ p {
             flex-direction: column;
   }
   .rhombusBox {
-    width: 100%;
+    width: 90%;
     margin: 50px 100px;
   }
   .projects .wrap {
-    width: 100%;
+    width: 90%;
   }
   .cohort h3 {
     padding-top: 50px;
@@ -1072,10 +1091,10 @@ p {
             flex-direction: column;
   }
   .rhombusBox {
-    width: 100%;
+    width: 90%;
   }
   .projects .wrap {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -1129,13 +1148,13 @@ p {
     width: 250px;
   }
   .rhombusBox {
-    width: 100%;
+    width: 90%;
   }
   .projects .wrap {
-    width: 100%;
+    width: 90%;
   }
   .contactForm {
-    width: 100%;
+    width: 90%;
   }
   .footer .copyright {
     position: absolute;

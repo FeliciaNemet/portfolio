@@ -35,9 +35,17 @@
 .socialWrap {
      position: static;
 }
-.socIcons, .bottomIcon{
+.socIcons, .bottomIcon {
      position: absolute;
-     width: 80%;
+     width: 90%;
+     padding: 50px;
+     text-align: center;
+     justify-self: center;
+}
+.socIcons {
+     font-size: 40px;
+     position: absolute;
+     width: 90%;
      padding: 50px;
      text-align: center;
 }
