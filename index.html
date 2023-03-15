@@ -54,23 +54,28 @@
                               <img class="me" src="./assets/portrait.png" alt="A portait of myself, Felicia Nemet" />
                               <figcaption>A Portrait of Myself</figcaption>
                          </figure>
-                         <p>Hello, I'm Felicia Nemet, an experienced Front End | Mobile Developer who is passionate about creating accessible, responsive and interactive websites and applications. I graduated from Juno College of Technology's, Web Development Immersive Boot-camp in 2022.
+                         <p>Hello, I'm Felicia Nemet, an experienced Web & Mobile Developer | Graphic Designer | Artist | Lead Mentor & Ambassador | Freelancer; who is passionate about creating accessible, responsive and interactive websites and applications. I graduated from Juno College of Technology's, Web Development Immersive Boot-camp in 2022.
                               I'm an innovative and detail oriented individual who prides myself on my exceptional time-management and resourcefulness.
                          </p>
-                         <div class="socIcons">
-                              <a class="rhombus" href="https://github.com/FeliciaNemet" target="blank">
-                                   <i class="fab fa-github-square"></i>
-                              </a>
+                         <!-- <div class=">
+                                   
+                              </div> -->
+                         <div class="socIcons badge-base LI-profile-badge socIcons" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="felicianemet" data-version="v1">
                               <a class="rhombus" href="https://linktr.ee/felicia_codes" target="blank">
                                    <i class="fas fa-link"></i>
                               </a>
                               <a class="rhombus" href="mailto:nemet.felicia@gmail.com" target="blank">
                                    <i class="fas fa-envelope-square"></i>
                               </a>
-                              <div class="badge-base LI-profile-badge socIcons" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="felicianemet" data-version="v1">
-                                   <a class="badge-base__link LI-simple-link rhombus" href="https://ca.linkedin.com/in/felicianemet?trk=profile-badge">
+                              <a class="badge-base__link LI-simple-link rhombus" href="https://ca.linkedin.com/in/felicianemet?trk=profile-badge">
                                    <i class="fab fa-linkedin"></i>
-                              </a></div>
+                                   </a>
+                              <a class="rhombus" href="https://github.com/FeliciaNemet" target="blank">
+                                   <i class="fab fa-github-square"></i>
+                              </a>
+                              
+                              
+                              
                          </div>
                     </div>
                </section>
@@ -269,19 +274,28 @@
                <!-- </div> -->
                <div class="form wrapper">
                     <h3>Freelancing</h3>
-                    <form id="contactForm" class="contactForm" action="https://formspree.io/f/mwkylqwd" method="POST">
+                    <form
+                         id="contactForm" class="contactForm"
+                         action="https://formspree.io/f/mnqyzlor"
+                         method="POST"
+                         enctype="multipart/form-data"
+                    >
                          <div class="groupForm" id="contact">
                               <label class="formLabel" for="name">Name</label>
                               <input id="name" class="field" type="text" placeholder="Your Name" required="">
                          </div>
                          <div class="groupForm">
-                              <label class="formLabel" for="email">Email</label>
+                              <label class="formLabel" for="email"> Your Email:</label>
                               <input id="email" class="field" type="email" placeholder="Email Address" name="email" required="">
                          </div>
                          <div class="groupForm">
                               <label class="formLabel" for="message">Message</label>
                               <textarea id="message" class="message" placeholder="Your Message" name="message" cols="30"
                               rows="10" required=""></textarea>
+                         </div>
+                         <div class="groupForm">
+                              <label class="formLabel" for="file"> Your File(s):</label>
+                              <input id="file" class="field" type="file" name="upload" placeholder="Upload(s)" required="">
                          </div>
                          <button class="link" type="submit">Send</button>
                     </form>
@@ -316,7 +330,7 @@
           panels.forEach(panel => panel.addEventListener('click', toggleOpen));
           panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
 
-
+     
 
      </script> -->
      <script type="text/javascript"> //<![CDATA[
@@ -329,6 +343,6 @@
      <script src="https://kit.fontawesome.com/fd2abbb44d.js" crossorigin="anonymous"></script>
      <script src="main.js"></script>
      <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-     <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+     <!-- <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script> -->
 </body>
 </html>
