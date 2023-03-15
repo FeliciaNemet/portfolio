@@ -14,8 +14,6 @@
           font-family: $baseFont;
           font-size: 2.2rem;
           text-shadow: 2px 2px 1px $bubble;
-          text-transform: none;
-
      }
      p {
           font-size: 1.8rem;
@@ -35,12 +33,11 @@
 .socialWrap {
      position: static;
 }
-.socIcons, .bottomIcon {
+.socIcons {
      position: absolute;
-     width: 90%;
+     width: 100%;
      padding: 50px;
      text-align: center;
-     justify-self: center;
 }
 .socIcons {
      font-size: 40px;

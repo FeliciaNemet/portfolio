@@ -302,7 +302,7 @@ a {
 a, link, a:active, a:hover, a:focus {
   text-decoration: none;
   outline: none;
-  color: #000102;
+  color: black;
   font-family: "Aboreto", cursive;
 }
 
@@ -407,7 +407,6 @@ p {
   font-family: "Explora", cursive;
   font-size: 2.2rem;
   text-shadow: 2px 2px 1px #00c5ce;
-  text-transform: none;
 }
 
 .about p {
@@ -430,13 +429,11 @@ p {
   position: static;
 }
 
-.socIcons, .bottomIcon {
+.socIcons {
   position: absolute;
-  width: 90%;
+  width: 100%;
   padding: 50px;
   text-align: center;
-  -ms-grid-column-align: center;
-      justify-self: center;
 }
 
 .socIcons {
@@ -679,7 +676,7 @@ p {
 }
 
 .skills {
-  padding-top: 50px;
+  padding-top: 150px;
 }
 
 .skills h3 {
@@ -714,7 +711,7 @@ p {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 .rhombusBox h4 {
@@ -763,7 +760,7 @@ p {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 25px;
+  padding-top: 50px;
 }
 
 .project h3 {
@@ -786,7 +783,7 @@ p {
       -ms-flex-align: center;
           align-items: center;
   width: 20%;
-  margin: 25px;
+  margin: 40px;
   text-align: center;
 }
 
@@ -1003,7 +1000,7 @@ p {
     margin: 50px auto;
   }
   .rhombusBox {
-    margin: 50px 100px;
+    margin: 80px 100px;
   }
 }
 
@@ -1031,7 +1028,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 40px auto;
+    margin: 30px auto;
   }
   .rhombusBox {
     width: 90%;
@@ -1068,7 +1065,7 @@ p {
   }
   .rhombusBox {
     width: 90%;
-    margin: 50px 100px;
+    margin: 100px 100px;
   }
   .projects .wrap {
     width: 90%;

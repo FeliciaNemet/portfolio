@@ -45,7 +45,7 @@
                     </div>
                </div>
           </header>
-          <main>
+          <main class="wrapper">
                <section class="wrapper">
                     <div id="about" class="about">
                          <h2 class="heading">About</h2>
@@ -57,10 +57,8 @@
                          <p>Hello, I'm Felicia Nemet, an experienced Web & Mobile Developer | Graphic Designer | Artist | Lead Mentor & Ambassador | Freelancer; who is passionate about creating accessible, responsive and interactive websites and applications. I graduated from Juno College of Technology's, Web Development Immersive Boot-camp in 2022.
                               I'm an innovative and detail oriented individual who prides myself on my exceptional time-management and resourcefulness.
                          </p>
-                         <!-- <div class=">
-                                   
-                              </div> -->
-                         <div class="socIcons badge-base LI-profile-badge socIcons" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="felicianemet" data-version="v1">
+                    </div>
+                    <div class="socIcons">
                               <a class="rhombus" href="https://www.instagram.com/felicia_codes/" target="blank">
                                    <i class="fab fa-instagram"></i>
                               </a>
@@ -70,23 +68,17 @@
                               <a class="rhombus" href="mailto:felicia_codes@mail.com" target="blank">
                                    <i class="fas fa-envelope-square"></i>
                               </a>
-                              <a class="badge-base__link LI-simple-link rhombus" href="https://ca.linkedin.com/in/felicianemet?trk=profile-badge">
+                              <a class="rhombus" href="https://ca.linkedin.com/in/felicianemet?trk=profile-badge">
                                    <i class="fab fa-linkedin"></i>
                                    </a>
                               <a class="rhombus" href="https://github.com/FeliciaNemet" target="blank">
                                    <i class="fab fa-github-square"></i>
                               </a>
-                              
-                              
-                              
                          </div>
-                    </div>
                </section>
-               <section class="skills wrapper techStack">
-                         <div class="skills" id="skills">
+               <section class="skills wrapper id="skills">
                               <h3>Skills</h3>
-                         </div>
-                         <div class="techStack wrapper">
+                         <div class="techStack">
                               <div class="box1 socIcons">
                                    <div class="rhombusBox">
                                         <div class="rhom">
@@ -378,11 +370,11 @@
      title: "Get an Estimate!",
      fields: [
      {
-     label: " Files",
-     type="file",
-     name="upload",
-     placeholder="Upload(s)",
-     required=true,
+     label: "Files",
+     type: "file",
+     name: "upload",
+     placeholder: "Upload(s)",
+     required: false,
      },
      { type: "submit" },
      ],
