@@ -57,6 +57,23 @@
           
      }
 }
+
+.frameB {
+     border: 5px solid $blueGreen;
+     height: 460px;
+     width: 260px;
+     padding: 10px;
+     img {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          object-fit: contain;
+          height: 430px;
+          max-width: 100%;
+          
+          
+     }
+}
 .frameZ {
      border: 5px solid $blueGreen;
      height: 300px;

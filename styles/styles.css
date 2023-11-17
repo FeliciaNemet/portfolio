@@ -702,7 +702,7 @@ p {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin: 20px auto;
+  margin: 20px;
 }
 
 .rhombusBox h4 {
@@ -723,8 +723,8 @@ p {
 .rhom i {
   -webkit-transform: rotateZ(-46deg);
           transform: rotateZ(-46deg);
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
   display: inline-block;
   position: absolute;
   font-size: 35px;
@@ -820,6 +820,29 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   height: 400px;
+  max-width: 100%;
+}
+
+.frameB {
+  border: 5px solid #000102;
+  height: 460px;
+  width: 260px;
+  padding: 10px;
+}
+.frameB img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 430px;
   max-width: 100%;
 }
 
