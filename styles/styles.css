@@ -825,8 +825,8 @@ p {
 
 .frameB {
   border: 5px solid #000102;
-  height: 460px;
-  width: 260px;
+  height: 380px;
+  width: 360px;
   padding: 10px;
 }
 .frameB img {
@@ -842,7 +842,7 @@ p {
           justify-content: center;
   -o-object-fit: contain;
      object-fit: contain;
-  height: 430px;
+  height: 350px;
   max-width: 100%;
 }
 
