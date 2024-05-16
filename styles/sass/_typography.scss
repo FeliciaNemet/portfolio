@@ -1,5 +1,5 @@
-// $blueGreen: darken($color: #e7feff, $amount: 55);
-$bubble: darken($color: #e7feff, $amount: 1.5);
+$blueGreen: darken($color: #e7feff, $amount: 95);
+$bubble: darken($color: #e7feff, $amount: 55);
 $logoFont: 'Aboreto', cursive;
 $baseFont: 'Explora', cursive;
 
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-     margin: 0;
+     margin: 0 auto;
      height: 100vh;
      cursor: url('../assets/dragon.png'), text;
 }
