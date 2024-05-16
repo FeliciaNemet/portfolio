@@ -38,13 +38,8 @@
      width: 100%;
      padding: 50px;
      text-align: center;
-}
-.socIcons {
-     font-size: 40px;
-     position: absolute;
-     width: 90%;
-     padding: 50px;
-     text-align: center;
+     align-items: center;
+     margin-left: -6rem;
 }
 .socIcons a {
      border: 3px solid $blueGreen;
